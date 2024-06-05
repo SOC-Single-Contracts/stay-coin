@@ -14,9 +14,9 @@ export default function Footer() {
       </p>
 
       <div className="flex justify-center my-10 items-center gap-3 lg:gap-5 ">
-        <Image className="md:h-14 md:w-14 w-10" src={insta} alt="" />
-        <Image className="md:w-20 w-16" src={x} alt="" />
-        <Image className="md:w-20 w-16" src={linkedin} alt="" />
+        <Image className="cursor-pointer md:h-14 md:w-14 w-10" src={insta} alt="" />
+        <Image className="cursor-pointer md:w-20 w-16" src={x} alt="" />
+        <Image className="cursor-pointer md:w-20 w-16" src={linkedin} alt="" />
       </div>
       <hr className="border-gray-500" />
       <p className="text-center mt-5 text-sm">Copyright 2024 © Staycoin</p>

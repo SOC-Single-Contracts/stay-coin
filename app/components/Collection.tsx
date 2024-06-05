@@ -17,41 +17,41 @@ const Collection = () => {
 
             <div className="relative w-90  ">
 
-                <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 opacity-20 gradient-to-t z">
-                    <div className="p-4">
+                <div className="absolute inset-0 grid grid-cols-4 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 opacity-20 gradient-to-t z">
+                    <div className="p-4  ">
                         <Image src={confetti} alt="confetti" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={pepe} alt="pepe" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={island} alt="island" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={scifi} alt="scifi" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={viking} alt="viking" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={timelineImage} alt="timeline" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={timelineImage} alt="timeline" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={viking} alt="timeline" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={scifi} alt="timeline" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={island} alt="timeline" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={pepe} alt="timeline" className="w-full h-full object-cover" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 {/*sm:w-[200px] h-[200px]*/}">
                         <Image src={confetti} alt="timeline" className="w-full h-full object-cover" />
                     </div>
                 </div>
@@ -105,11 +105,11 @@ const Collection = () => {
         </div>
         <div className="flex flex-col lg:flex-row justify-center gap-5 my-10">
           {[1, 2, 3, 4].map((index) => (
-            <div key={index} className="w-full lg:w-auto">
+            <div key={index} className="w-full lg:w-auto cursor-pointer">
               <div style={{ background: "rgba(225, 49, 34, 0.08)" }} className="w-[80%] mx-auto lg:w-56 flex flex-col gap-1 justify-start items-center border border-primary rounded-3xl p-5">
                 <Image src={horse} alt="" />
                 <div className="flex items-center">
-                  <p>Uniswap</p>
+                  <p >Uniswap</p>
                   <FaArrowRightLong className="text-primary" />
                 </div>
               </div>

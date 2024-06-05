@@ -4,16 +4,20 @@ import { FiMenu } from "react-icons/fi";
 import Image from "next/image";
 import logo from "../../public/logo.png";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link as ScrollLink } from 'react-scroll';
 
 const navButtons = [
   {
     title: "About",
+    to: "about"
   },
   {
     title: "Tokenomics",
+    to: "tokenomics"
   },
   {
     title: "Roadmap",
+    to: "roadmap"
   },
 ];
 
@@ -50,13 +54,18 @@ export default function Header() {
             </button>
           </div>
           {navButtons.map((item, index) => (
-            <button
+            <ScrollLink
               key={index}
-              className="text-lg font-medium"
+              to={item.to}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="text-lg font-medium cursor-pointer"
               onClick={closeMenu}
             >
               {item.title}
-            </button>
+            </ScrollLink>
           ))}
           <button
             className="bg-primary py-2 px-4 rounded-full text-lg font-medium lg:text-xl"
@@ -69,13 +78,18 @@ export default function Header() {
 
       <div className=" hidden lg:flex lg:flex-row mt-4 lg:mt-0 lg:ml-auto gap-5">
         {navButtons.map((item, index) => (
-          <button
+          <ScrollLink
             key={index}
-            className="text-lg font-medium"
+            to={item.to}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="text-lg font-medium cursor-pointer"
             onClick={closeMenu}
           >
             {item.title}
-          </button>
+          </ScrollLink>
         ))}
         <button
           className="bg-primary py-2 px-4 rounded-full text-lg font-medium lg:text-xl"

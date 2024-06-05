@@ -4,7 +4,7 @@ import bg1 from "../../public/viking_pepe-removebg-preview.png";
 
 const Tokenomics = () => {
   return (
-    <div className="mx-5 md:mx-20">
+    <div id="tokenomics"className="mx-5 md:mx-20">
       <div className="py-10">
         <div className="mb-5 text-center">
           <p className="font-inter text-base font-semibold leading-[24px] tracking-wider text-center uppercase text-red-500 mb-4">
