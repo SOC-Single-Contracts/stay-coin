@@ -9,7 +9,7 @@ import scifi from "../../assets/scifi-pepe.jpg";
 import viking from "../../assets/viking-pepe.jpg";
 import timelineImage from "../../assets/timelineImage.jpeg";
 import horse from "../../public/horse.png";
-import collection from "../../public/collection2.png";
+// import collection from "../../public/collection2.png";
 
 const Collection = () => {
     return (
@@ -74,9 +74,9 @@ const Collection = () => {
                         </p>
 
                         {/* Buttons */}
-                        <div className="flex flex-col sm:flex-row gap-1 justify-center">
+                        <div className="flex flex-col sm:flex-row gap-2 lg:gap-1 justify-center">
                             <button
-                                className="bg-red-800 ml-16 py-4 px-14 rounded-full text-lg font-medium lg:text-xl text-white"
+                                className="bg-red-800 lg:ml-16 py-4 px-14 rounded-full text-lg font-medium lg:text-xl text-white"
                                 onClick={() => console.log('View Collection')}
                             >
                                 View Collection
@@ -92,9 +92,6 @@ const Collection = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center">
-                <Image src={collection} alt="" className="lg:hidden" />
-            </div>
             <div className="py-8 lg:py-20 bg-no-repeat" style={{ backgroundImage: "url(bg.png)", backgroundSize: "800px", backgroundPositionX: "1100px" }}>
                 <div className="my-20 lg:my-2">
                     <p className="font-gilroy text-2xl lg:text-4xl text-center mb-4 sm:mb-10" style={{ fontWeight: 700, lineHeight: "40px" }}>
