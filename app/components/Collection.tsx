@@ -17,7 +17,7 @@ const Collection = () => {
 
             <div className="relative w-90  ">
 
-                <div className="absolute inset-0 grid grid-cols-4 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 opacity-20 gradient-to-t z">
+                <div className="absolute inset-0 grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 opacity-20 gradient-to-t z">
                     <div className="p-4  ">
                         <Image src={confetti} alt="confetti" className="w-full h-full object-cover" />
                     </div>
