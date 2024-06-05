@@ -13,7 +13,7 @@ import collection from "../../public/collection2.png";
 
 const Collection = () => {
     return (
-        <div className="px-4 sm:px-8 md:px-12 lg:px-[240px] py-[160px]">
+        <div className="px-4 sm:px-8 md:px-12 lg:px-[120px] py-[160px]">
 
             <div className="relative w-90  ">
 

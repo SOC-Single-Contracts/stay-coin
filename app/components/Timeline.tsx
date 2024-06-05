@@ -34,7 +34,7 @@ const Timeline = () => {
                 type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <Image className="md:flex " src={timeImage} alt="" />
+            <Image className="md:flex w-[190px] h-[200px]" src={timeImage} alt="" />
           </div>
         </div>
 
@@ -65,7 +65,7 @@ const Timeline = () => {
                 type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <Image className="md:flex" src={timeImage} alt="" />
+            <Image className="md:flex w-[190px] h-[200px]" src={timeImage} alt="" />
           </div>
         </div>
        
