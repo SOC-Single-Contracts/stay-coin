@@ -61,7 +61,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <Image src={herBorder} alt="" />
+      <Image src={herBorder} alt="" className="w-[100%]"/>
     </div>
   );
 }

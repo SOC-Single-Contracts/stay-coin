@@ -22,11 +22,11 @@ const Exchange = () => {
         </p>
       </div>
 
-      <div className="hidden sm:flex justify-center items-center my-10">
-        <Image src={company} alt="" />
+      <div className="cursor-pointer hidden sm:flex justify-center items-center my-10">
+        <Image  src={company} alt="" />
       </div>
 
-      <div className="flex justify-center items-center my-10">
+      <div className="cursor-pointer flex justify-center items-center my-10">
         <Image src={company1} alt="" className="lg:hidden" />
       </div>
     </div>
