@@ -3,8 +3,8 @@ import Image from "next/image";
 import React, { useState } from "react";
 import herBorder from "../../public/heroBorder.png";
 import copy from "../../public/copy-01.png";
-import card1 from "../../public/timelineImage.jpeg";
-import card2 from "../../public/PEPE RULER.jpg";
+import timelineImageCard from "../../public/timelineImage.jpeg";
+import pepeRulerCard from "../../public/PEPE RULER.jpg";
 
 export default function Hero() {
   const [copied, setCopied] = useState(false);
@@ -26,10 +26,10 @@ export default function Hero() {
     >
       <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-10 px-4  lg:px-20">
         <div className="lg:w-1/4 order-2 lg:order-1">
-          <Image src={card1} alt="card1" className="hidden lg:block" />
+          <Image src={timelineImageCard} alt="timelineImageCard" className="hidden lg:block" />
         </div>
         <div className="lg:w-1/4 order-3 lg:order-3">
-          <Image src={card2} alt="card2" className="hidden lg:block" />
+          <Image src={pepeRulerCard} alt="pepeRulerCard" className="hidden lg:block" />
         </div>
         <div className="py-20 lg:w-1/2 lg:py-3 order-1 lg:order-2">
           <div className="text-center">
@@ -41,6 +41,7 @@ export default function Hero() {
               >
                 <Image src={copy} alt="Copy icon" />
                 <p>0xf50618dj1k68n168j12ng1723gjajuwbncx</p>
+                {(copied) &&  <p style={{color: "green"}}>Text Copied!</p>}
               </div>
             </div>
             <h1 className="font-gilroy font-bold tracking-wide text-4xl lg:text-7xl my-4">
@@ -60,7 +61,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <Image src={herBorder} alt="" />
+      <Image src={herBorder} alt="" className="w-[100%]"/>
     </div>
   );
 }
