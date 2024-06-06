@@ -11,7 +11,7 @@ const Timeline = () => {
 
         {/* Each timeline block */}
         {["2", "1"].map((number, index) => (
-          <div key={index} className={`mb-8 flex flex-col md:flex-row${index % 2 === 0 ? '-reverse' : ''} items-center w-full ${styles['left-timeline']}`}>
+          <div key={index} className={`mb-8 flex flex-col md:flex-row${index % 2 === 0 ? '-reverse' : ''} items-left w-full ${styles['left-timeline']}`}>
             <div className="order-1 w-full md:w-5/12"></div>
             <div
               className="mx-auto p-2 rounded-lg z-20 flex items-center w-16 h-16 md:absolute md:left-0 md:relative md:order-1"
