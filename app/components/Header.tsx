@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "../../public/logo.png";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link as ScrollLink } from 'react-scroll';
+import Link from 'next/link';
 
 const navButtons = [
   {
@@ -35,11 +36,13 @@ export default function Header() {
   return (
     <div className="flex bg-black text-white items-center justify-between px-4 lg:px-10 py-4 ">
       <div className="flex items-center">
+        <Link href ="/">
         <Image
           className={`w-[80px] lg:w-[100px] ${menuOpen ? "hidden" : "block"}`}
           src={logo}
           alt="logo"
         />
+        </Link>
       </div>
       <div className={`lg:hidden ${menuOpen ? "hidden" : "block"}`}>
         <button onClick={toggleMenu}>
@@ -67,12 +70,12 @@ export default function Header() {
               {item.title}
             </ScrollLink>
           ))}
-          <button
-            className="bg-primary py-2 px-4 rounded-full text-lg font-medium lg:text-xl"
+          <Link href =  "/presale"
+            className="bg-primary py-2 px-4 rounded-full text-lg font-medium lg:text-xl cursor-pointer"
             onClick={closeMenu}
           >
             Buy Now
-          </button>
+          /</Link>
         </div>
       )}
 
@@ -91,12 +94,12 @@ export default function Header() {
             {item.title}
           </ScrollLink>
         ))}
-        <button
-          className="bg-primary py-2 px-4 rounded-full text-lg font-medium lg:text-xl"
+        <Link href = '/presale'
+          className="bg-primary py-2 px-4 rounded-full text-lg font-medium lg:text-xl cursor-pointer"
           onClick={closeMenu}
         >
           Buy Now
-        </button>
+        </Link>
       </div>
     </div>
   );

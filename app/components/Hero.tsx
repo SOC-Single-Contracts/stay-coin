@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import herBorder from "../../public/heroBorder.png";
 import copy from "../../public/copy-01.png";
 import timelineImageCard from "../../public/timelineImage.jpeg";
+import { Link as ScrollLink } from 'react-scroll';
+import Link from 'next/link';
 import pepeRulerCard from "../../public/PEPE RULER.jpg";
 
 export default function Hero() {
@@ -54,9 +56,16 @@ export default function Hero() {
               <br className="hidden" /> Tender jolly arrgh deck
               <br className="lg:hidden" /> poop hands arr.
             </p>
-            <button className="w-[150px] h-[58px] px-10 py-3 mb-6 mt-3 lg:mt-8 rounded-[100px] bg-red-500 text-white hover:opacity-100">
+            <Link href= "/presale"
+     
+            className="w-[150px] h-[58px] px-10 py-3 mb-6 mt-3 lg:mt-8 rounded-[100px] bg-red-500 text-white hover:opacity-100 cursor-pointer"
+            
+          >
+            Buy Now
+          </Link>
+            {/* <button className="w-[150px] h-[58px] px-10 py-3 mb-6 mt-3 lg:mt-8 rounded-[100px] bg-red-500 text-white hover:opacity-100">
               Buy Now
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
