@@ -8,54 +8,43 @@ interface TimeLeft {
 }
 
 const Presale: React.FC = () => {
-  const [timeLeft, setTimeLeft] = useState<TimeLeft | {}>(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(calculateTimeLeft());
   const [progress, setProgress] = useState<number>(60); // Initial progress set to 60%
   const [solanaAmount, setSolanaAmount] = useState<number>(0);
   const [staycoinAmount, setStaycoinAmount] = useState<number>(0);
 
-  function calculateTimeLeft(): TimeLeft | {} {
+  function calculateTimeLeft(): TimeLeft | null {
     const difference = +new Date('2024-12-31T00:00:00') - +new Date();
-    let timeLeft = {};
+    if (difference <= 0) return null;
 
-    if (difference > 0) {
-      timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-      };
-    }
-
-    return timeLeft;
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
   }
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
-
-    return () => clearTimeout(timer);
-  }, [timeLeft]);
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {
-    setProgress(prev => Math.min(100, prev + parseInt(solanaAmount.toString()) + parseInt(staycoinAmount.toString())));
+    setProgress((prev) => Math.min(100, prev + solanaAmount + staycoinAmount));
   }, [solanaAmount, staycoinAmount]);
 
-  const timerComponents = [];
-  Object.keys(timeLeft).forEach(interval => {
-    if (!timeLeft[interval]) {
-      return;
-    }
-    timerComponents.push(
-      <div
-        key={interval}
-        className="flex flex-col items-center bg-primary text-white font-bold rounded-lg p-2 sm:p-4 m-1 shadow-lg"
-      >
-        <span className="text-xl sm:text-2xl lg:text-4xl">{timeLeft[interval]}</span>
-        <span className="text-xs sm:text-sm lg:text-xl capitalize">{interval}</span>
-      </div>
-    );
-  });
+  const timerComponents = Object.entries(timeLeft ?? {}).map(([interval, value]) => (
+    <div
+      key={interval}
+      className="flex flex-col items-center bg-primary text-white font-bold rounded-lg p-2 sm:p-4 m-1 shadow-lg"
+    >
+      <span className="text-xl sm:text-2xl lg:text-4xl">{value}</span>
+      <span className="text-xs sm:text-sm lg:text-xl capitalize">{interval}</span>
+    </div>
+  ));
 
   return (
     <div id="presale" className="flex items-center justify-center min-h-screen">
@@ -64,14 +53,11 @@ const Presale: React.FC = () => {
         className="border border-primary flex flex-col gap-3 sm:gap-5 rounded-3xl p-3 sm:p-5 mb-3 w-full max-w-xs sm:max-w-md lg:max-w-lg xl:max-w-xl mx-auto"
       >
         <div className="flex flex-col items-center justify-center">
-          <h1
-            className="font-gilroy text-2xl sm:text-3xl lg:text-5xl text-center my-3 sm:my-5"
-            style={{ fontWeight: 700, lineHeight: '1.2' }}
-          >
+          <h1 className="font-gilroy text-2xl sm:text-3xl lg:text-5xl text-center my-3 sm:my-5" style={{ fontWeight: 700, lineHeight: '1.2' }}>
             Presale<br className="lg:hidden" />
           </h1>
           <div className="flex justify-center mt-2 sm:mt-4">
-            {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+            {timerComponents.length ? timerComponents : <span>Time&apos;s up!</span>}
           </div>
           <p className="text-center text-sm sm:text-lg font-medium mt-1 sm:mt-2">
             Until the next price increase
@@ -91,7 +77,8 @@ const Presale: React.FC = () => {
               <input
                 id="solanaInput"
                 type="number"
-                className="border border-primary rounded-lg p-2 mt-1 w-full bg-white shadow-md"
+                className="border border-primary rounded-lg p-2  
+ mt-1 w-full bg-white shadow-md"
                 value={solanaAmount}
                 onChange={e => setSolanaAmount(parseInt(e.target.value))}
               />
