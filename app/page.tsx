@@ -6,7 +6,6 @@ import Exchange from "./components/Exchange";
 import Collection from "./components/Collection";
 import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
-import Presale from './components/Presale'
 export default function Home() {
   return (
     <div className="bg-black text-white">
@@ -16,7 +15,6 @@ export default function Home() {
       <Collection />
       <Roadmap />
       <Tokenomics />
-      <Presale />
     </div>
   );
 }

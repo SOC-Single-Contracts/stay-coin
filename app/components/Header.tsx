@@ -95,7 +95,7 @@ export default function Header() {
           </ScrollLink>
         ))}
         <Link href = '/presale'
-          className="bg-primary py-2 px-4 rounded-full text-lg font-medium lg:text-xl cursor-pointer"
+          className="bg-primary pb-1 px-4 rounded-full text-lg font-medium lg:text-xl cursor-pointer"
           onClick={closeMenu}
         >
           Buy Now
