@@ -9,7 +9,7 @@ const Timeline = () => {
         <div className="border-2-2 absolute z-0 border-primary h-full border-4 left-[49.78%]"></div>
 
         {/* Left timeline */}
-        <div className="mb-8 md:flex justify-between flex-row-reverse items-center w-full left-timeline">
+        <div className="sm:px-1 mb-8 md:flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div className="md:order-1 b w-full md:w-5/12"></div>
           <div
             className="p-2  rounded-lg z-20 hidden md:flex  items-center absolute left-0 md:relative  md:order-1 w-16 h-16"
@@ -42,7 +42,7 @@ const Timeline = () => {
         <div className="mb-8 md:flex z-10 relative  my-32  justify-between items-center w-full right-timeline ">
           <div className="order-1 w-full  md:w-5/12"></div>
           <div
-            className="p-2 rounded-lg z-20 hidden md:flex   absolute left-0 md:relative items-center md:order-1 w-16 h-16"
+            className="pt-30 p-2 rounded-lg z-20 hidden md:flex   absolute left-0 md:relative items-center md:order-1 w-16 h-16"
             style={{ backgroundColor: "rgba(225, 49, 34, 0.24)" }}
           >
             <div
