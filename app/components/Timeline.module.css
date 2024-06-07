@@ -1,0 +1,91 @@
+/* Timeline.module.css */
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-timeline .order-1,
+.right-timeline .order-1 {
+    padding: 10px;
+    height: auto; /* Ensure it does not expand unnecessarily */
+}
+
+.left-timeline .z-10,
+.right-timeline .z-10 {
+    padding: 10px;
+    margin: 0 10px; /* Adjust margin to ensure proper alignment */
+}
+
+.left-timeline .mx-auto,
+.right-timeline .mx-auto {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1020px) and (min-width: 772px) {
+    .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .left-timeline .order-1,
+    .right-timeline .order-1 {
+        padding: 8px;
+        height: auto; /* Ensure it does not expand unnecessarily */
+    }
+
+    .left-timeline .z-10,
+    .right-timeline .z-10 {
+        padding: 8px;
+        margin: 0 8px; /* Adjust margin to ensure proper alignment */
+    }
+
+    .left-timeline .mx-auto,
+    .right-timeline .mx-auto {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 772px) {
+    .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .left-timeline .order-1,
+    .right-timeline .order-1 {
+        padding: 5px;
+        height: auto; /* Ensure it does not expand unnecessarily */
+    }
+
+    .left-timeline .z-10,
+    .right-timeline .z-10 {
+        padding: 5px;
+        margin: 0 5px; /* Adjust margin to ensure proper alignment */
+    }
+
+    .left-timeline .mx-auto,
+    .right-timeline .mx-auto {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .left-timeline .z-10,
+    .right-timeline .z-10 {
+        flex-direction: row-reverse; /* Image first, then content */
+        align-items: center; /* Align items vertically in the center */
+        justify-content: space-between; /* Space between content and image */
+    }
+
+    .left-timeline .z-10 img,
+    .right-timeline .z-10 img {
+        width: 50%; /* Set image width to 50% to fit next to content */
+        order: -1; /* Make image appear first */
+    }
+
+    .left-timeline .z-10 div, /* Adjust content width */
+    .right-timeline .z-10 div {
+        flex: 1; /* Make content flexible but less wide */
+        max-width: 50%; /* Limit content width to 50% */
+    }
+}
