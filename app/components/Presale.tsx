@@ -39,7 +39,7 @@ const Presale: React.FC = () => {
   const timerComponents = Object.entries(timeLeft ?? {}).map(([interval, value]) => (
     <div
       key={interval}
-      className="flex flex-col items-center bg-primary text-white font-bold rounded-lg p-2 sm:p-4 m-1 shadow-lg"
+      className="flex flex-col items-center bg-primary text-black font-bold rounded-lg p-2 sm:p-4 m-1 shadow-lg"
     >
       <span className="text-xl sm:text-2xl lg:text-4xl">{value}</span>
       <span className="text-xs sm:text-sm lg:text-xl capitalize">{interval}</span>
@@ -59,10 +59,10 @@ const Presale: React.FC = () => {
           <div className="flex justify-center mt-2 sm:mt-4">
             {timerComponents.length ? timerComponents : <span>Time&apos;s up!</span>}
           </div>
-          <p className="text-center text-sm sm:text-lg font-medium mt-1 sm:mt-2">
+          <p className="text-center  text-sm sm:text-lg font-medium mt-1 sm:mt-2">
             Until the next price increase
           </p>
-          <p className="text-center text-sm sm:text-lg font-medium mt-1 sm:mt-2 text-primary bg-white p-1 sm:p-2 rounded-lg shadow-md">
+          <p className="text-center text-black text-sm sm:text-lg font-medium mt-1 sm:mt-2 text-primary bg-white p-1 sm:p-2 rounded-lg shadow-md">
             1 USD = 279.05 Rs
           </p>
           <div className="w-full bg-gray-200 rounded-full h-3 sm:h-4 my-3 sm:my-4 relative shadow-inner">
@@ -97,7 +97,7 @@ const Presale: React.FC = () => {
             </div>
           </div>
           <div className="flex justify-center mt-3 sm:mt-4 w-full">
-            <button className="bg-primary py-2 sm:py-3 px-4 sm:px-6 rounded-full text-sm sm:text-lg lg:text-xl cursor-pointer shadow-md hover:bg-primary-dark transition duration-200">
+            <button className="bg-primary text-black py-2 sm:py-3 px-4 sm:px-6 rounded-full text-sm sm:text-lg lg:text-xl cursor-pointer shadow-md hover:bg-primary-dark transition duration-200">
               Buy Now
             </button>
           </div>
