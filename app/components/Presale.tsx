@@ -77,8 +77,7 @@ const Presale: React.FC = () => {
               <input
                 id="solanaInput"
                 type="number"
-                className="border border-primary rounded-lg p-2  
- mt-1 w-full bg-white shadow-md"
+                className="border border-primary rounded-lg p-2 mt-1 w-full bg-white shadow-md text-black"
                 value={solanaAmount}
                 onChange={e => setSolanaAmount(parseInt(e.target.value))}
               />
@@ -90,14 +89,15 @@ const Presale: React.FC = () => {
               <input
                 id="nftInput"
                 type="number"
-                className="border border-primary rounded-lg p-2 mt-1 w-full bg-white shadow-md"
+                className="border border-primary rounded-lg p-2 mt-1 w-full bg-white shadow-md text-black"
                 value={staycoinAmount}
                 onChange={e => setStaycoinAmount(parseInt(e.target.value))}
               />
             </div>
           </div>
+
           <div className="flex justify-center mt-3 sm:mt-4 w-full">
-            <button className="bg-primary text-black py-2 sm:py-3 px-4 sm:px-6 rounded-full text-sm sm:text-lg lg:text-xl cursor-pointer shadow-md hover:bg-primary-dark transition duration-200">
+            <button className="bg-primary font-bold text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full text-sm sm:text-lg lg:text-xl cursor-pointer shadow-md hover:bg-primary-dark transition duration-200">
               Buy Now
             </button>
           </div>

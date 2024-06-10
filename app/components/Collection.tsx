@@ -17,7 +17,7 @@ const Collection = () => {
 
             <div className="relative w-90  ">
 
-                <div className="absolute inset-0 flex justify-center items-center opacity-15">
+                <div className="absolute inset-0 flex justify-center items-center opacity-20 sm:opacity-15 md:opacity-15 lg:opacity-15 xl:opacity-15 2xl:opacity-15">
                     <div className="grid grid-cols-4 gap-4 max-w-screen-2xl">
                         <div className="p-2">
                             <Image src={confetti} alt="confetti" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
