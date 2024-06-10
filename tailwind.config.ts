@@ -17,6 +17,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "gradient-to-t": "linear-gradient(to top, rgba(0,0,0,1) 100%, rgba(0,0,0,0) 0%)"
       },
+      screens:{
+        '3xl': '2560px'
+      }
     },
   },
   plugins: [],

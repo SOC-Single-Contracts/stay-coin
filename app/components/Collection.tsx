@@ -17,44 +17,47 @@ const Collection = () => {
 
             <div className="relative w-90  ">
 
-                <div className="absolute inset-0 grid grid-cols-4  opacity-20 gradient-to-t z">
-                    <div className="p-2">
-                        <Image src={confetti} alt="confetti" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={pepe} alt="pepe" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={island} alt="island" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={scifi} alt="scifi" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={viking} alt="viking" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={timelineImage} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={timelineImage} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={viking} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={scifi} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={island} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={pepe} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
-                    </div>
-                    <div className="p-2">
-                        <Image src={confetti} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                <div className="absolute inset-0 flex justify-center items-center opacity-15">
+                    <div className="grid grid-cols-4 gap-4 max-w-screen-2xl">
+                        <div className="p-2">
+                            <Image src={confetti} alt="confetti" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={pepe} alt="pepe" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={island} alt="island" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={scifi} alt="scifi" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={viking} alt="viking" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={timelineImage} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={timelineImage} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={viking} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={scifi} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={island} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={pepe} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
+                        <div className="p-2">
+                            <Image src={confetti} alt="timeline" className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[223px] lg:h-[223px] object-cover" />
+                        </div>
                     </div>
                 </div>
+
 
                 {/* Content overlay */}
                 <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center">
