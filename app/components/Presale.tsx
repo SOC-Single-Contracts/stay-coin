@@ -39,7 +39,7 @@ const Presale: React.FC = () => {
   const timerComponents = Object.entries(timeLeft ?? {}).map(([interval, value]) => (
     <div
       key={interval}
-      className="flex flex-col items-center bg-primary text-black font-bold rounded-lg p-2 sm:p-4 m-1 shadow-lg"
+      className="flex flex-col items-center bg-primary font-bold rounded-lg p-2 sm:p-4 m-1 shadow-lg"
     >
       <span className="text-xl sm:text-2xl lg:text-4xl">{value}</span>
       <span className="text-xs sm:text-sm lg:text-xl capitalize">{interval}</span>
