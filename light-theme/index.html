@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from tf.bda.dev/mynt/light-theme/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 13:55:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#221857" />
+	<!-- Google Fonts -->
+
+	<!-- CSS Styles  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com/" />
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&amp;display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/vendor/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.minc619.css?v=1.0" />
+	<link rel="icon" href="img/favicon.svg" />
+	<title>Homepage</title>
+</head>
+
+	<body>
+		<header class="header header--transparent">
+	<form method="get" class="header__search" id="header_search_form">
+		<div class="header__search-container container">
+			<label class="header__search-label" for="header-search-field">
+				<input type="submit" id="header-search-submit" class="header__search-submit" tabindex="-1" value="" />
+				<span class="screen-reader-text">To search this site, enter a search term</span>
+				<input class="header__search-input" id="header-search-field" type="text" name="s" value="" aria-required="false" autocomplete="off" placeholder="Search" />
+				<button id="header_search_close" class="header__search-close" type="button" aria-label="Close search form"></button>
+			</label>
+		</div>
+	</form>
+
+	<div class="header__container container">
+		<a class="header__brand" href="index.html">
+			<img src="img/logo.svg" alt="" />
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<nav class="header__navbar navbar navbar-expand-lg">
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<form method="get" class="navbar__search">
+					<label class="navbar__search-label" for="navbar-search-field">
+						<span class="screen-reader-text">To search this site, enter a search term</span>
+						<input class="navbar__search-input" id="navbar-search-field" type="text" name="s" value="" aria-required="false" autocomplete="off" placeholder="Search" />
+					</label>
+					<input type="submit" id="navbar-search-submit" class="navbar__search-submit" tabindex="-1" value="" />
+				</form>
+
+				<ul class="navbar-nav list-unstyled">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="roadmap.html">Roadmap</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="blog-post.html">Post</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="text.html">Text</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="faq.html">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="team.html">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="404.html">404</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Dark Theme</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../documentation/index.html" target="_blank">Docs</a>
+					</li>
+				</ul>
+				<a href="#" class="navbar__button button button--accent">Buy on OpenSea</a>
+				<div class="navbar__social">
+					<p class="navbar__social-text">Follow us</p>
+					<ul class="social__list">
+	<li class="social__item social__item--twitter">
+		<a class="social__link" href="#" target="_blank">
+			<span class="screen-reader-text">Twitter</span>
+			<svg width="20" height="16" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M17.9525 3.98316C17.9647 4.15675 17.9647 4.33034 17.9647 4.50553C17.9647 9.84359 13.8371 16 6.28966 16V15.9968C4.06013 16 1.8769 15.3712 0 14.1857C0.324193 14.2241 0.65001 14.2433 0.97664 14.2441C2.82429 14.2457 4.61913 13.6353 6.07272 12.5114C4.31688 12.4786 2.77717 11.3515 2.23928 9.706C2.85436 9.82279 3.48812 9.79879 4.09181 9.6364C2.17753 9.25563 0.800325 7.59973 0.800325 5.67665C0.800325 5.65905 0.800325 5.64225 0.800325 5.62545C1.37071 5.93824 2.00934 6.11182 2.6626 6.13102C0.859638 4.9447 0.30388 2.58325 1.39265 0.736963C3.47593 3.2608 6.54966 4.79511 9.84928 4.9575C9.51859 3.55439 9.97034 2.08408 11.0364 1.09774C12.689 -0.431763 15.2882 -0.353368 16.8418 1.27293C17.7607 1.09454 18.6415 0.762562 19.4475 0.292192C19.1412 1.22733 18.5001 2.02168 17.6437 2.52645C18.457 2.43206 19.2517 2.21767 20 1.89049C19.4491 2.70324 18.7552 3.41119 17.9525 3.98316Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</a>
+	</li>
+	<li class="social__item social__item--discord">
+		<a class="social__link" href="#" target="_blank">
+			<span class="screen-reader-text">Discord</span>
+			<svg width="20" height="15" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M16.9308 1.24342C15.6561 0.667894 14.2892 0.243873 12.8599 0.00101874C12.8339 -0.00366827 12.8079 0.00804483 12.7945 0.0314716C12.6187 0.339138 12.4239 0.740514 12.2876 1.05599C10.7503 0.829542 9.22099 0.829542 7.71527 1.05599C7.57887 0.733501 7.37707 0.339138 7.20048 0.0314716C7.18707 0.00882646 7.16107 -0.00288664 7.13504 0.00101874C5.70659 0.243097 4.33963 0.667118 3.06411 1.24342C3.05307 1.2481 3.04361 1.25592 3.03732 1.26606C0.444493 5.07759 -0.265792 8.79544 0.0826501 12.4672C0.0842267 12.4852 0.0944749 12.5023 0.108665 12.5133C1.81934 13.7494 3.47642 14.4998 5.10273 14.9973C5.12876 15.0051 5.15634 14.9957 5.1729 14.9746C5.55761 14.4577 5.90054 13.9126 6.19456 13.3394C6.21192 13.3059 6.19535 13.266 6.15989 13.2528C5.61594 13.0497 5.098 12.8022 4.59977 12.5211C4.56037 12.4984 4.55721 12.443 4.59347 12.4164C4.69831 12.3391 4.80318 12.2587 4.9033 12.1775C4.92141 12.1626 4.94665 12.1595 4.96794 12.1689C8.24107 13.6393 11.7846 13.6393 15.0191 12.1689C15.0404 12.1587 15.0657 12.1619 15.0846 12.1767C15.1847 12.2579 15.2895 12.3391 15.3952 12.4164C15.4314 12.443 15.4291 12.4984 15.3897 12.5211C14.8914 12.8076 14.3735 13.0497 13.8288 13.252C13.7933 13.2653 13.7775 13.3059 13.7949 13.3394C14.0952 13.9118 14.4381 14.4569 14.8157 14.9738C14.8315 14.9957 14.8599 15.0051 14.8859 14.9973C16.5201 14.4998 18.1772 13.7494 19.8879 12.5133C19.9028 12.5023 19.9123 12.4859 19.9139 12.468C20.3309 8.22302 19.2154 4.53566 16.9568 1.26684C16.9513 1.25592 16.9419 1.2481 16.9308 1.24342ZM6.68335 10.2315C5.69792 10.2315 4.88594 9.34128 4.88594 8.24802C4.88594 7.15476 5.68217 6.26456 6.68335 6.26456C7.69239 6.26456 8.49651 7.16258 8.48073 8.24802C8.48073 9.34128 7.68451 10.2315 6.68335 10.2315ZM13.329 10.2315C12.3435 10.2315 11.5316 9.34128 11.5316 8.24802C11.5316 7.15476 12.3278 6.26456 13.329 6.26456C14.338 6.26456 15.1421 7.16258 15.1264 8.24802C15.1264 9.34128 14.338 10.2315 13.329 10.2315Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</a>
+	</li>
+</ul>
+
+				</div>
+			</div>
+		</nav>
+
+		<button id="header_search_open" class="header__search-open" type="button" aria-label="Open search form"></button>
+	</div>
+</header>
+
+
+		<!-- prettier-ignore -->
+		<main class="main main--top">
+			<section class="section-hero">
+	<div class="section-hero__swiper swiper">
+		<div class="section-hero__wrapper swiper-wrapper">
+			<div class="section-hero__slide swiper-slide">
+				<div class="section-hero__back">
+					<img src="img/section-hero-back-1.svg" alt="" />
+				</div>
+				<div class="section-hero__container container">
+					<div class="section-hero__content">
+						<h1 class="section-hero__title">The New Vaporvawe Mynt NFT Collection Showcase & Store</h1>
+						<p class="section-hero__text">Meet the notorious Mynt - the creatures from your dreams and nightmares, and quite possibly from under your bed… Don’t look down!</p>
+						<a href="#" class="section-hero__link button button--accent">Buy on OpenSea</a>
+					</div>
+					<div class="section-hero__image">
+						<img src="img/section-hero-image-1.png" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="section-hero__slide swiper-slide">
+				<div class="section-hero__back">
+					<img src="img/section-hero-back-1.svg" alt="" />
+				</div>
+				<div class="section-hero__container container">
+					<div class="section-hero__content">
+						<h1 class="section-hero__title">The New Vaporvawe Creakzers NFT Collection Showcase & Store</h1>
+						<p class="section-hero__text">Meet the notorious Creakzers - the creatures from your dreams and nightmares, and quite possibly from under your bed… Don’t look down!</p>
+						<a href="#" class="section-hero__link button button--accent">Buy on OpenSea</a>
+					</div>
+					<div class="section-hero__image">
+						<img src="img/section-hero-image-2.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-hero__pagination container">
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+</section>
+ 
+			<section class="section-onetwo">
+	<div class="section-onetwo__container container">
+		<div class="section-onetwo__wrapper">
+			<div class="section-onetwo__item">
+				<div class="section-onetwo__number"><span>1</span></div>
+				<p class="section-onetwo__text">The artists that created these NFTs have worked on 15+ successful projects</p>
+			</div>
+			<div class="section-onetwo__item last-item">
+				<div class="section-onetwo__number"><span>2</span></div>
+				<p class="section-onetwo__text">
+					<span>This is simply the most</span>
+					<span>awesome NFT pack – and</span>
+					<span>that’s not even arguable</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+ 
+			<section class="section-perks">
+	<div class="section-perks__container container">
+		<div class="section-perks__columns">
+			<div class="section-perks__column">
+				<h2 class="section-perks__title">Perks of Pro</h2>
+				<div class="section-perks__text">There’s more hype than you can see on the surface. Mynt come in all sorts of shapes and incarnations. Here’s what you get when going Pro in our gang.</div>
+			</div>
+			<div class="section-perks__column">
+				<ul class="section-perks__list list-unstyled">
+					<li class="section-perks__item">Prime access to drops</li>
+					<li class="section-perks__item">Custom cards</li>
+					<li class="section-perks__item">Instagram filters</li>
+					<li class="section-perks__item">Other crypto accepted</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+ 
+			<section class="section-begin">
+	<div class="section-begin__container container">
+		<div class="section-begin__columns">
+			<div class="section-begin__column">
+				<div class="section-begin__image">
+					<img src="img/section-begin.png" alt="" />
+				</div>
+			</div>
+			<div class="section-begin__column">
+				<div class="section-begin__wrapper">
+					<h2 class="section-begin__title">Where it all began</h2>
+					<p class="section-begin__text">One day, in March of the year 2351, Mynt will crawl from underneath the city to show their true power. And district by district, people will embrace the wave of the psychedelic vibe that these neon creatures spread all over the place.</p>
+					<a href="#" class="section-begin__link button button--accent">Buy on OpenSea</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+ 
+			<section class="section-partners">
+	<div class="section-partners__container container">
+		<div class="section-partners__swiper swiper">
+			<ul class="section-partners__list swiper-wrapper list-unstyled">
+				<li class="section-partners__item swiper-slide">
+					<div class="section-partners__image">
+						<img src="img/partners-image-1.svg" alt="" />
+					</div>
+				</li>
+				<li class="section-partners__item swiper-slide">
+					<div class="section-partners__image">
+						<img src="img/partners-image-2.svg" alt="" />
+					</div>
+				</li>
+				<li class="section-partners__item swiper-slide">
+					<div class="section-partners__image">
+						<img src="img/partners-image-3.svg" alt="" />
+					</div>
+				</li>
+				<li class="section-partners__item swiper-slide">
+					<div class="section-partners__image">
+						<img src="img/partners-image-4.svg" alt="" />
+					</div>
+				</li>
+				<li class="section-partners__item swiper-slide">
+					<div class="section-partners__image">
+						<img src="img/partners-image-5.svg" alt="" />
+					</div>
+				</li>
+				<li class="section-partners__item swiper-slide">
+					<div class="section-partners__image">
+						<img src="img/partners-image-6.svg" alt="" />
+					</div>
+				</li>
+				<li class="section-partners__item swiper-slide">
+					<div class="section-partners__image">
+						<img src="img/partners-image-7.svg" alt="" />
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="section-partners__pagination swiper-pagination"></div>
+	</div>
+</section>
+
+			<section class="section-numbers">
+	<div class="section-numbers__container container">
+		<h2 class="section-numbers__title">Behold: Their Majesty</h2>
+
+		<ul class="section-numbers__list list-unstyled row">
+			<li class="section-numbers__item col-md-4">
+				<div class="section-numbers__item-wrapper">
+					<div class="section-numbers__item-number">+3k</div>
+					<h3 class="section-numbers__item-title">Top-notch pieces of art</h3>
+					<p class="section-numbers__item-text">Our incredibly productive artists and designers have embodied all their inspiration in these NFTs.</p>
+				</div>
+			</li>
+			<li class="section-numbers__item col-md-4">
+				<div class="section-numbers__item-wrapper">
+					<div class="section-numbers__item-number">15</div>
+					<h3 class="section-numbers__item-title">Highest sale</h3>
+					<p class="section-numbers__item-text">These items are not to be looked down upon: this is something you’ll boast about – or profitably resell.</p>
+				</div>
+			</li>
+			<li class="section-numbers__item col-md-4">
+				<div class="section-numbers__item-wrapper">
+					<div class="section-numbers__item-number">80%</div>
+					<h3 class="section-numbers__item-title">NFTs bought at pre-launch</h3>
+					<p class="section-numbers__item-text">The last collection we’ve launched was sold out on day 5 – and the start was quite impressive, too.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+			<section class="section-roadmap">
+	<div class="section-roadmap__container container">
+		<h2 class="section-roadmap__title">Roadmap</h2>
+		<p class="section-roadmap__text">Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
+		
+		<ul class="section-roadmap__list list-unstyled">
+			<li class="section-roadmap__item">
+				<div class="section-roadmap__item-heading">
+					<span class="section-roadmap__item-number">0%</span>
+					<span class="section-roadmap__item-text">Crazy money stuff going on</span>
+				</div>
+				<div class="section-roadmap__item-content">
+					<p>To get the right jumpstart, we need some solid boost. Now, we're talking a few angels into working with us - so far so good! As expected, we'll raise the needed amount by next month.</p>
+				</div>
+			</li>
+			<li class="section-roadmap__item">
+				<div class="section-roadmap__item-heading">
+					<span class="section-roadmap__item-number">10%</span>
+					<span class="section-roadmap__item-text">NFTs are being minted</span>
+				</div>
+				<div class="section-roadmap__item-content">
+					<p>That’s where art becomes a part of the digital world. We wrap it like a gift in a nice and pretty NFT shell to make sure the soon-to-be owner is happy about everything.</p>
+				</div>
+			</li>
+			<li class="section-roadmap__item">
+				<div class="section-roadmap__item-heading">
+					<span class="section-roadmap__item-number">25%</span>
+					<span class="section-roadmap__item-text">Getting into your eyes and ears with the promo</span>
+				</div>
+				<div class="section-roadmap__item-content">
+					<p>The hype starts building around our NFTs. People get to know our top drops and exclusive features, and the word spreads all over the place.</p>
+				</div>
+			</li>
+			<li class="section-roadmap__item">
+				<div class="section-roadmap__item-heading">
+					<span class="section-roadmap__item-number">50%</span>
+					<span class="section-roadmap__item-text">Interactive perks go live</span>
+				</div>
+				<div class="section-roadmap__item-content">
+					<p>Remember the NFT game we mentioned? Time to launch it! Now, you can try it right here and on our partner website - come visit and don’t forget to tell us what you think.</p>
+				</div>
+			</li>
+			<li class="section-roadmap__item">
+				<div class="section-roadmap__item-heading">
+					<span class="section-roadmap__item-number">75%</span>
+					<span class="section-roadmap__item-text">Time for the main sales round</span>
+				</div>
+				<div class="section-roadmap__item-content">
+					<p>Too much waiting would be tiresome, wouldn’t it? So, at last, the sales are officially open! Hurry up: the limited collection gets sold out faster than you say “Shut up and take my money!”</p>
+				</div>
+			</li>
+			<li class="section-roadmap__item">
+				<div class="section-roadmap__item-heading">
+					<span class="section-roadmap__item-number">100%</span>
+					<span class="section-roadmap__item-text">Pat on the back for all of us – and let the new journey begin</span>
+				</div>
+				<div class="section-roadmap__item-content">
+					<p>Wow, that was fun! This time, it took you just 2 days to reach sold out. We should do that again, and we’ve already started on our next project. Stay tuned!</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+			<section class="section-icon-list">
+	<div class="section-icon-list__container container">
+		<h2 class="section-icon-list__title">Join the cult – if you’re daring enough</h2>
+
+		<ul class="section-icon-list__list list-unstyled row">
+			<li class="section-icon-list__item col-md-4">
+				<div class="section-icon-list__item-wrapper">
+					<div class="section-icon-list__item-icon">
+						<img src="img/section-icon-list-1.svg" alt="" />
+					</div>
+					<h3 class="section-icon-list__item-title">Vaporwave collection</h3>
+					<p class="section-icon-list__item-text">Get nostalgic about the 90s rave and soft electronic music</p>
+				</div>
+			</li>
+			<li class="section-icon-list__item col-md-4">
+				<div class="section-icon-list__item-wrapper">
+					<div class="section-icon-list__item-icon">
+						<img src="img/section-icon-list-1.svg" alt="" />
+					</div>
+					<h3 class="section-icon-list__item-title">Cyberpunk collection</h3>
+					<p class="section-icon-list__item-text">Tech cartoony Mynt for their geeky tech fans</p>
+				</div>
+			</li>
+			<li class="section-icon-list__item col-md-4">
+				<div class="section-icon-list__item-wrapper">
+					<div class="section-icon-list__item-icon">
+						<img src="img/section-icon-list-1.svg" alt="" />
+					</div>
+					<h3 class="section-icon-list__item-title">Acid neon collection</h3>
+					<p class="section-icon-list__item-text">Brighten up your art collection with these colorful characters</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+			<section class="section-journey">
+	<div class="section-journey__container container">
+		<h2 class="section-journey__title">The journey of the Mynt</h2>
+		<div class="section-journey__wrapper section-journey__wrapper--direct row">
+			<div class="section-journey__text col-md-5">
+				<p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
+				<p>Meet the notorious Mynt - the creatures from your dreams and nightmares, and quite possibly from under your bed… Don’t look down!</p>
+				<p>Who are they? One day, in March of the year 2351, Mynt will crawl from underneath the city to show their true power. And district by district, people will embrace the wave of the psychedelic vibe that these neon creatures spread all over the place.</p>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="section-journey__image section-journey__image--dark col-md-6">
+				<img class="section-journey__image-back" src="img/section-journey-back-1.svg" alt="" />
+				<div class="section-journey__image-wrapper section-journey__image-wrapper--big"><img src="img/section-journey-1.png" alt="" /></div>
+				<div class="section-journey__image-wrapper section-journey__image-wrapper--small"><img src="img/section-journey-2.png" alt="" /></div>
+			</div>
+		</div>
+		<div class="section-journey__wrapper section-journey__wrapper--reverse row">
+			<div class="section-journey__image section-journey__image--light col-md-6">
+				<img class="section-journey__image-back" src="img/section-journey-back-2.svg" alt="" />
+				<div class="section-journey__image-wrapper section-journey__image-wrapper--big"><img src="img/section-journey-3.png" alt="" /></div>
+				<div class="section-journey__image-wrapper section-journey__image-wrapper--small"><img src="img/section-journey-4.png" alt="" /></div>
+			</div>
+			<div class="col-md-1"></div>
+
+			<div class="section-journey__text col-md-5">
+				<p>Aren’t they adorable in their unearthliness? The whole Mynt gang – hundreds of colorful cards – are making our lives brighter. Come admire them in all their glory: each one with its own story and quirky look.</p>
+				<p>The brave ones who will proceed with the Freakzers will find what they look for: unique mindblowing collectibles generated based on 110 parameters. Pick your favorite one.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+			<section class="section-squares">
+	<div class="section-squares__container container">
+		<div class="section-squares__content">
+			<h2 class="section-squares__title">Unparalleled and awesome</h2>
+			<div class="section-squares__list row">
+				<div class="section-squares__item col-lg-6">
+					<h3 class="section-squares__item-title">Super artsy</h3>
+					<p class="section-squares__item-text">The artists that created these NFTs have worked on 15+ successful projects</p>
+				</div>
+				<div class="section-squares__item col-lg-6">
+					<h3 class="section-squares__item-title">Provably rare</h3>
+					<p class="section-squares__item-text">Each of the Mynt is 100% unique – and you can easily prove it yourself</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+			<section class="section-cards">
+	<div class="section-cards__container container">
+		<div class="section-cards__list row">
+			<div class="section-cards__item col-md-6 col-lg-3">
+				<div class="section-cards__card section-cards__card--1">
+					<div class="section-cards__number">01</div>
+					<h3 class="section-cards__title">Instagram filters</h3>
+					<img src="img/section-cards-1.svg" alt="" class="section-cards__image" />
+				</div>
+				<p class="section-cards__subtext">Hype up your stories with the retrowave filters by Mynt – won’t your feed folks be jealous!</p>
+			</div>
+			<div class="section-cards__item col-md-6 col-lg-3">
+				<div class="section-cards__card section-cards__card--2">
+					<div class="section-cards__number">02</div>
+					<h3 class="section-cards__title">Other crypto accepted</h3>
+					<img src="img/section-cards-2.svg" alt="" class="section-cards__image" />
+				</div>
+				<p class="section-cards__subtext">Unlike with the first-level plan, you can pay not only in Ether and USDT but also Doge, Bitcoin, and Cardano.</p>
+			</div>
+			<div class="section-cards__item col-md-6 col-lg-3">
+				<div class="section-cards__card section-cards__card--3">
+					<div class="section-cards__number">03</div>
+					<h3 class="section-cards__title">Mystery perk</h3>
+					<img src="img/section-cards-3.svg" alt="" class="section-cards__image" />
+				</div>
+				<p class="section-cards__subtext">You never know what you get… You just never know.</p>
+			</div>
+			<div class="section-cards__item col-md-6 col-lg-3">
+				<div class="section-cards__card section-cards__card--4">
+					<div class="section-cards__number">04</div>
+					<h3 class="section-cards__title">Mynt 16-bit game</h3>
+					<img src="img/section-cards-4.svg" alt="" class="section-cards__image" />
+				</div>
+				<p class="section-cards__subtext">Get the literal ball rolling in the full-blast game that makes you reminiscent of Nintendo stuff.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+			<section class="section-action">
+	<div class="section-action__container container">
+		<p class="section-action__text">Aren’t they adorable in their unearthliness? The whole Mynt gang – hundreds of colorful cards – are making our lives brighter. Come admire them in all their glory: each one with its own story and quirky look.</p>
+		<a href="#" class="section-action__link button button--accent">Buy on OpenSea</a>
+	</div>
+</section>
+
+			<section class="section-testimonials">
+	<div class="container">
+		<h2 class="section-testimonials__title">They say we’re awesome</h2>
+	</div>
+	<div class="section-testimonials__container swiper-container container">
+		<div class="section-testimonials__swiper swiper">
+			<ul class="section-testimonials__list list-unstyled swiper-wrapper">
+				<li class="section-testimonials__item swiper-slide">
+					<div class="section-testimonials__item-wrapper">
+						<div class="section-testimonials__item-image">
+							<img src="img/samantha.png" alt="" />
+						</div>
+						<div class="section-testimonials__item-meta">
+							<p class="section-testimonials__item-name"><span>Samantha Bill</span></p>
+						</div>
+					</div>
+					<p class="section-testimonials__item-text">There’s more hype than you can see on the surface. Mynt come in all sorts of shapes and incarnations. Here’s what you get when going Pro in our gang.</p>
+				</li>
+				<li class="section-testimonials__item swiper-slide">
+					<div class="section-testimonials__item-wrapper">
+						<div class="section-testimonials__item-image">
+							<img src="img/samantha.png" alt="" />
+						</div>
+						<div class="section-testimonials__item-meta">
+							<p class="section-testimonials__item-name"><span>Samantha Bill</span></p>
+						</div>
+					</div>
+					<p class="section-testimonials__item-text">There’s more hype than you can see on the surface. Mynt come in all sorts of shapes and incarnations. Here’s what you get when going Pro in our gang.</p>
+				</li>
+				<li class="section-testimonials__item swiper-slide">
+					<div class="section-testimonials__item-wrapper">
+						<div class="section-testimonials__item-image">
+							<img src="img/samantha.png" alt="" />
+						</div>
+						<div class="section-testimonials__item-meta">
+							<p class="section-testimonials__item-name"><span>Samantha Bill</span></p>
+						</div>
+					</div>
+					<p class="section-testimonials__item-text">
+						There’s more hype than you can see on the surface. Mynt come in all sorts of shapes and incarnations. Here’s what you get when going Pro in our gang. There’s more hype than you can see on the surface. Mynt come in all sorts of shapes and incarnations. Here’s what you get when going Pro
+						in our gang. There’s more hype than you can see on the surface. Mynt come in all sorts of shapes and incarnations. Here’s what you get when going Pro in our gang. There’s more hype than you can see on the surface. Mynt come in all sorts of shapes and incarnations. Here’s what you get
+						when going Pro in our gang.
+					</p>
+				</li>
+			</ul>
+		</div>
+		<div class="section-testimonials__pagination swiper-pagination"></div>
+		<div class="section-testimonials__next swiper-button-next"></div>
+		<div class="section-testimonials__prev swiper-button-prev"></div>
+	</div>
+</section>
+
+		</main>
+
+		<footer class="footer">
+	<div class="footer__container container">
+		<a class="footer__brand" href="index.html">
+			<img src="img/logo.svg" alt="" />
+		</a>
+		<ul class="footer__menu list-unstyled">
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="light-theme/index.html">Home</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="light-theme/about.html">About</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="light-theme/roadmap.html">Roadmap</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="light-theme/blog.html">Blog</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="blog-post.html">Post</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="text.html">Text</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="light-theme/faq.html">FAQ</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="light-theme/team.html">Team</a>
+			</li>
+			<li class="footer__menu-item">
+				<a class="footer__menu-link" href="light-theme/404.html">404</a>
+			</li>
+		</ul>
+		<div class="footer__social"><ul class="social__list">
+	<li class="social__item social__item--twitter">
+		<a class="social__link" href="#" target="_blank">
+			<span class="screen-reader-text">Twitter</span>
+			<svg width="20" height="16" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M17.9525 3.98316C17.9647 4.15675 17.9647 4.33034 17.9647 4.50553C17.9647 9.84359 13.8371 16 6.28966 16V15.9968C4.06013 16 1.8769 15.3712 0 14.1857C0.324193 14.2241 0.65001 14.2433 0.97664 14.2441C2.82429 14.2457 4.61913 13.6353 6.07272 12.5114C4.31688 12.4786 2.77717 11.3515 2.23928 9.706C2.85436 9.82279 3.48812 9.79879 4.09181 9.6364C2.17753 9.25563 0.800325 7.59973 0.800325 5.67665C0.800325 5.65905 0.800325 5.64225 0.800325 5.62545C1.37071 5.93824 2.00934 6.11182 2.6626 6.13102C0.859638 4.9447 0.30388 2.58325 1.39265 0.736963C3.47593 3.2608 6.54966 4.79511 9.84928 4.9575C9.51859 3.55439 9.97034 2.08408 11.0364 1.09774C12.689 -0.431763 15.2882 -0.353368 16.8418 1.27293C17.7607 1.09454 18.6415 0.762562 19.4475 0.292192C19.1412 1.22733 18.5001 2.02168 17.6437 2.52645C18.457 2.43206 19.2517 2.21767 20 1.89049C19.4491 2.70324 18.7552 3.41119 17.9525 3.98316Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</a>
+	</li>
+	<li class="social__item social__item--discord">
+		<a class="social__link" href="#" target="_blank">
+			<span class="screen-reader-text">Discord</span>
+			<svg width="20" height="15" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M16.9308 1.24342C15.6561 0.667894 14.2892 0.243873 12.8599 0.00101874C12.8339 -0.00366827 12.8079 0.00804483 12.7945 0.0314716C12.6187 0.339138 12.4239 0.740514 12.2876 1.05599C10.7503 0.829542 9.22099 0.829542 7.71527 1.05599C7.57887 0.733501 7.37707 0.339138 7.20048 0.0314716C7.18707 0.00882646 7.16107 -0.00288664 7.13504 0.00101874C5.70659 0.243097 4.33963 0.667118 3.06411 1.24342C3.05307 1.2481 3.04361 1.25592 3.03732 1.26606C0.444493 5.07759 -0.265792 8.79544 0.0826501 12.4672C0.0842267 12.4852 0.0944749 12.5023 0.108665 12.5133C1.81934 13.7494 3.47642 14.4998 5.10273 14.9973C5.12876 15.0051 5.15634 14.9957 5.1729 14.9746C5.55761 14.4577 5.90054 13.9126 6.19456 13.3394C6.21192 13.3059 6.19535 13.266 6.15989 13.2528C5.61594 13.0497 5.098 12.8022 4.59977 12.5211C4.56037 12.4984 4.55721 12.443 4.59347 12.4164C4.69831 12.3391 4.80318 12.2587 4.9033 12.1775C4.92141 12.1626 4.94665 12.1595 4.96794 12.1689C8.24107 13.6393 11.7846 13.6393 15.0191 12.1689C15.0404 12.1587 15.0657 12.1619 15.0846 12.1767C15.1847 12.2579 15.2895 12.3391 15.3952 12.4164C15.4314 12.443 15.4291 12.4984 15.3897 12.5211C14.8914 12.8076 14.3735 13.0497 13.8288 13.252C13.7933 13.2653 13.7775 13.3059 13.7949 13.3394C14.0952 13.9118 14.4381 14.4569 14.8157 14.9738C14.8315 14.9957 14.8599 15.0051 14.8859 14.9973C16.5201 14.4998 18.1772 13.7494 19.8879 12.5133C19.9028 12.5023 19.9123 12.4859 19.9139 12.468C20.3309 8.22302 19.2154 4.53566 16.9568 1.26684C16.9513 1.25592 16.9419 1.2481 16.9308 1.24342ZM6.68335 10.2315C5.69792 10.2315 4.88594 9.34128 4.88594 8.24802C4.88594 7.15476 5.68217 6.26456 6.68335 6.26456C7.69239 6.26456 8.49651 7.16258 8.48073 8.24802C8.48073 9.34128 7.68451 10.2315 6.68335 10.2315ZM13.329 10.2315C12.3435 10.2315 11.5316 9.34128 11.5316 8.24802C11.5316 7.15476 12.3278 6.26456 13.329 6.26456C14.338 6.26456 15.1421 7.16258 15.1264 8.24802C15.1264 9.34128 14.338 10.2315 13.329 10.2315Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</a>
+	</li>
+</ul>
+</div>
+	</div>
+</footer>
+
+<div class="scroll-to-top"></div>
+
+<!-- Javascript Files -->
+<script src="js/vendor/jquery-3.6.0.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+	</body>
+
+<!-- Mirrored from tf.bda.dev/mynt/light-theme/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 13:56:17 GMT -->
+</html>

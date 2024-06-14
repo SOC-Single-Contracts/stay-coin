@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from tf.bda.dev/mynt/documentation/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 13:56:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+    <!-- Google Fonts -->
+
+    <!-- CSS Styles  -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&amp;display=swap" rel="stylesheet" />
+	  <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.svg" />
+    <title>Mynt | Documentation</title>
+  </head>
+
+  <body class="theme-light">
+    <main class="main">
+      <section class="section-faq">
+        <div class="section-faq__container container">
+          <h2 class="section-faq__title nft-h2"><span><img src="img/logo.svg" alt="" /></span>Documentation</h2>
+          <div class="section-faq__wrapper row align-items-end">
+            <ul class="section-faq__list">
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">HTML Structure</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>The template is based on <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">Bootstrap 5.1 Framework</a>. Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. Main content is placed between header and footer area.</p>
+<pre>
+&lt;main class=&quot;<strong>main</strong>&quot;&gt;
+  &lt;section&gt;
+    &lt;div class=&quot;<strong>container</strong>&quot;&gt;
+      &lt;div class=&quot;<strong>row</strong>&quot;&gt;
+        &lt;div class=&quot;<strong>col-md-4</strong>&quot;&gt;
+          Your content	
+        &lt;/div&gt;
+        &lt;div class=&quot;<strong>col-md-8</strong>&quot;&gt;
+          Your content
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
+</pre>
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">Files Structure</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <ul>
+                    <li><code>/css</code> (Template CSS)</li>
+                    <ul>
+                      <li><code>/vendor</code> (External libs CSS files)
+                        <ul>
+                          <li><code>bootstrap-grid.min.css</code></li>
+                          <li><code>bootstrap-grid.min.css.map</code></li>
+                          <li><code>bootstrap-grid.rtl.min.css</code></li>
+                          <li><code>bootstrap-grid.rtl.min.css.map</code></li>
+                          <li><code>bootstrap-reboot.min.css</code></li>
+                          <li><code>bootstrap-reboot.min.css.map</code></li>
+                          <li><code>bootstrap-reboot.rtl.min.css</code></li>
+                          <li><code>bootstrap-reboot.rtl.min.css.map</code></li>
+                          <li><code>bootstrap-utilities.min.css</code></li>
+                          <li><code>bootstrap-utilities.min.css.map</code></li>
+                          <li><code>bootstrap-utilities.rtl.min.css</code></li>
+                          <li><code>bootstrap-utilities.rtl.min.css.map</code></li>
+                          <li><code>bootstrap-utilities.rtl.min.css.map</code></li>
+                          <li><code>bootstrap.min.css</code></li>
+                          <li><code>bootstrap.min.css.map</code></li>
+                          <li><code>bootstrap.rtl.min.css</code></li>
+                          <li><code>bootstrap.rtl.min.css.map</code></li>
+                          <li><code>swiper-bundle.min.css</code></li>
+                        </ul>
+                      </li>
+                      <li><code>style.css</code> (Main CSS file)</li>
+                      <li><code>style.min.css</code> (Main CSS file, minified version)</li>
+                    </ul>
+                    <li><code>/img</code> (All Images and Icons)</li>
+                    <li><code>/js</code> (Template JS)</li>
+                    <ul>
+                      <li><code>/vendor</code> (External libs JS files)
+                        <ul>
+                          <li><code>bootstrap.bundle.min.js</code></li>
+                          <li><code>bootstrap.bundle.min.js.map</code></li>
+                          <li><code>bootstrap.min.js</code></li>
+                          <li><code>bootstrap.min.js.map</code></li>
+                          <li><code>jquery-3.6.0.min.js</code></li>
+                          <li><code>swiper-bundle.min.js</code></li>
+                          <li><code>swiper-bundle.min.js.map</code></li>
+                        </ul>
+                      </li>
+                      <li><code>script.js</code> (Main JS file)</li>
+                    </ul>
+                    <li><code>/scss</code> (You don't need to include this folder in the project, it contains SCSS style files, in case you want to develop this theme in more depth. The builder is not included in the theme)</li>
+                    <li><code>404.html</code> (404 page)</li>
+                    <li><code>about.html</code> (About page)</li>
+                    <li><code>blog.html</code> (Blog page)</li>
+                    <li><code>blog-post.html</code> (Single Blog post)</li>
+                    <li><code>faq.html</code> (FAQ page)</li>
+                    <li><code>index.html</code> (Main page)</li>
+                    <li><code>roadmap.html</code> (Roadmap page)</li>
+                    <li><code>team.html</code> (Reviews page)</li>
+                    <li><code>text.html</code> (Page with some text, heading and image examples)</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">Install theme</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>To install the template to your hosting server you need to upload the template files using the FTP Manager. You can use your hosting control panel file manager or some third party FTP manager like FileZilla, CuteFTP etc. Upload the theme files to your server. Change the texts or images in the HTML and CSS files as needed.</p>
+                  
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">Light/Dark themes</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>The template has two themes - dark and light. And in the dark theme the FAQ, Roadmap, and Gallery (Team) blocks have additional classes with <code>--dark</code> and <code>--light</code> modifiers, which allows you to add them in two views.</p>
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">Fonts</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>The theme uses the Fira Sans font from Google Fonts.</p>
+                  </p>
+<pre>
+&lt;link href=&quot;https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+</pre>
+<pre>
+body {
+  font-family: &quot;Fira Sans&quot;, sans-serif;
+  font-weight: 400;
+}
+</pre>
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">CSS Styles</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>The theme's styles are in <code>css/style.css</code> and <code>css/style.min.css</code> (minified version). 
+                    Also, for advanced developers, the theme includes the original style files in SASS format (the assembler is not included in the theme).</p>
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">JS Scripts</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>All theme scripts are in <code>/script.js file</code> - opening and closing FAQ and Roadmap items, displaying Scroll-to-Top button, search field in the header and Swiper slider initialization.</p>
+<pre>
+const swiperHero = new Swiper(".section-hero__swiper", {
+  autoplay: {
+    delay: 2000,
+  },
+  autoplay: false,
+  loop: true,
+  effect: "fade",
+  fadeEffect: {
+    crossFade: true,
+  },
+  speed: 1500,
+  draggable: true,
+  pagination: {
+    el: ".section-hero .swiper-pagination",
+    clickable: true,
+  },
+});
+</pre>
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">Images</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>The images included in the theme are in the <code>img</code> folder. You can either replace the images with your own, keeping the name, or add new ones by adding or correcting the path for the image in the HTML files).</p>
+                </div>
+              </li>
+              <li class="section-faq__item">
+                <div class="section-faq__item-heading">
+                  <h3 class="section-faq__item-title">Carousels and Sliders</h3>
+                  <span class="section-faq__item-icon">
+                    <img src="img/faq-icon.svg" alt="" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="section-faq__item-content">
+                  <p>The theme comes with Swiper Slider, which gives you the ability to create carousels and sliders. Here is the official <a href="https://swiperjs.com/swiper-api" target="_blank">Swiper documentation</a>  explaining how to use it. The plugin files are in the js/vendor and css/vendor folders. Options can be changed in the <code>/script.js</code> file</p>
+<pre>
+const swiperTeam = new Swiper(".section-team__swiper", {
+  slidesPerView: 2,
+  spaceBetween: 8,
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 8,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 16,
+    },
+    992: {
+      slidesPerView: 5,
+      spaceBetween: 16,
+    },
+    1200: {
+      slidesPerView: 7,
+      spaceBetween: 20,
+    },
+  },
+  pagination: {
+    el: ".section-team .swiper-pagination",
+    clickable: true,
+  },
+});
+</pre>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+
+<!-- Mirrored from tf.bda.dev/mynt/documentation/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 13:56:19 GMT -->
+</html>
