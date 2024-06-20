@@ -1,0 +1,38 @@
+/* Tailwind classes already cover most of these styles; ensure they are included */
+
+.footer {
+    @apply mt-auto py-8 bg-indigo-900 border-t border-indigo-700 overflow-hidden;
+  }
+  
+  .footer__container {
+    @apply flex justify-between items-center flex-wrap;
+  }
+  
+  .footer__brand img {
+    height: 50px;
+  }
+  
+  .footer__menu {
+    @apply flex flex-wrap space-x-4;
+  }
+  
+  .footer__menu .nav-item {
+    @apply nav-item;
+  }
+  
+  .footer__menu .nav-link {
+    @apply text-white;
+  }
+  
+  .footer__menu .nav-link:hover, .footer__menu .nav-link:focus {
+    @apply text-green-400 no-underline;
+  }
+  
+  .footer__social {
+    @apply flex space-x-4;
+  }
+  
+  .footer__watermark {
+    @apply text-white text-xs opacity-50 absolute bottom-2 right-2;
+  }
+  

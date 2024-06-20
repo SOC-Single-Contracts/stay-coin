@@ -1,0 +1,59 @@
+#presale {
+    position: relative;
+    padding: 20px;
+    background: url('/section-squares-back-2.svg') no-repeat center center;
+    background-size: cover;
+  }
+  @media (max-width: 1023px) {
+    #presale {
+      width: 100%;
+      padding: 0 10px; /* Optional padding */
+    }
+  }
+  .text-staycoin{
+    color: #221857;
+  }
+  
+  .section-journey__image {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .border {
+    background: #6b58cd;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bg-custom-purple {
+    background: linear-gradient(to right, #B1A6E9, #6B58CD);
+  }
+  
+  .bg-custom-green {
+    background: #2ecc71;
+  }
+  
+  .font-gilroy {
+    font-family: 'Gilroy', sans-serif;
+  }
+  
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background: #6B58CD;
+  }
+  
