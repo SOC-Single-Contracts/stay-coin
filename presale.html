@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presale Countdown</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gilroy:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.minc619.css">
+</head>
+<body>
+    <div class="centered-flex section-cards__item col-md-6 col-lg-3">
+        <div class="section-cards__card section-cards__card--3" data-step="3">
+            <div id="presale" class="container-presale">
+                <h1>Presale</h1>
+                <div id="timer">
+                    <!-- Timer will be inserted here by JavaScript -->
+                </div>
+                <p>Until the next price increase</p>
+                <p id="currency">1 USD = 279.05 Rs</p>
+                <div class="progress-bar">
+                    <div class="progress" id="progress" style="width: 60%;"></div>
+                    <span id="progress-text">60%</span>
+                </div>
+                <label for="solanaInput">Amount of Solana:</label>
+                <input id="solanaInput" type="number">
+                <label for="staycoinInput">Amount of Staycoin:</label>
+                <input id="staycoinInput" type="number">
+                <button class="btn" onclick="buyNow()">Buy Now</button>
+                <img src="img/section-cards-3.svg" alt="Community Governance" class="section-cards__image" />
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="/script.js"></script>
+</body>
+</html>
