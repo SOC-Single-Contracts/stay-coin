@@ -2538,13 +2538,19 @@ a.link-demo--visited {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  min-height: 569px !important;
+  min-height: 303px ;
   margin-bottom: 12px;
 }
 
 @media (min-width: 768px) {
   .section-cards__card {
-    min-height: 303px;
+    min-height: 600px !important;
+    margin-bottom: 18px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1257px) {
+  .section-cards__card {
+    min-height: 751px !important;
     margin-bottom: 18px;
   }
 }
