@@ -679,6 +679,56 @@ a.link-demo--visited {
   z-index: 2;
   position: relative;
 }
+.header__language-selector {
+  position: absolute;
+  top: 20px;  /* Adjust based on your header's height */
+  right: 20px;  /* Distance from the right edge */
+  z-index: 1000;  /* Ensure it's above other elements */
+}
+
+.header__language-selector select {
+  padding: -0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;  /* Optional, style as needed */
+  background-color: white;  /* Dropdown background */
+  color: black;  /* Text color */
+  cursor: pointer;
+  max-width: 100%;  /* Ensure it doesn't overflow on small screens */
+}
+
+/* Custom styles for focus state */
+.header__language-selector select:focus {
+  outline: none;  /* Removes default focus outline */
+  border-color: #666;  /* Optional: highlight color when focused */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 767px) {
+  .header__language-selector {
+      top: 10px;  /* Adjust for smaller headers on mobile */
+      right: 10px;  /* Closer to the edge on small screens */
+      width: auto;  /* Auto width to adjust to content size */
+  }
+
+  .header__language-selector select {
+      padding: 0.4rem 0.8rem;  /* Smaller padding on mobile */
+      font-size: 0.9rem;  /* Smaller font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Additional adjustments for very small screens */
+  .header__language-selector {
+      top: 5px;
+      right: 5px;
+  }
+
+  .header__language-selector select {
+      padding: 0.3rem 0.6rem;  /* Even smaller padding */
+      font-size: 0.8rem;  /* Even smaller font size */
+  }
+}
+
 .header.opened {
   background-color: #221857;
 }

@@ -188,3 +188,9 @@
 		},
 	});
 })(jQuery);
+function changeLanguage() {
+    var language = document.getElementById("language-dropdown").value;
+    console.log("Selected Language:", language);
+    // Add integration with a translation library or custom translation logic here
+}
+
