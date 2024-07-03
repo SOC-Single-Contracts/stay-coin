@@ -2272,11 +2272,30 @@ a.link-demo--visited {
 .section-journey__wrapper--reverse {
   flex-direction: column-reverse;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .section-journey__wrapper {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+}
+@media (min-width: 768px ) and (max-width: 1200px){
+  .section-journey__image {
+    width: 710px;
+    
+  }
+  .section-journey__text {
+    width: 704px;
+  }
+  .section-journey__wrapper {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-journey__viking{
+    margin-top: 20px;
+  }
+  .section-journey__text-second{
+    margin-bottom: 20px !important;
   }
 }
 .section-journey__image {
