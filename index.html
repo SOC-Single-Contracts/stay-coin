@@ -70,8 +70,16 @@
 							<a class="nav-link" href="https://staycripto.com" target="_blank">Presale</a>
 						</li>
 					</ul>
-					<div class="d-flex align-items-center">
-						<a href="#" class="navbar__button button button--accent">Buy on OpenSea</a>
+					<!-- <div class="d-flex align-items-center"> -->
+						<!-- <a href="#" class="navbar__button button button--accent">Buy on OpenSea</a> -->
+						<div class="header__language-selector ms-3">
+							<select id="language-dropdown" onchange="changeLanguage()">
+								<option value="en">English</option>
+								<option value="es">Español</option>
+								<option value="fr">Français</option>
+								<option value="de">Deutsch</option>
+							</select>
+						</div>
 						<div class="navbar__social">
 							<p class="navbar__social-text">Follow us</p>
 							<ul class="social__list">
@@ -99,14 +107,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="header__language-selector ms-3">
-							<select id="language-dropdown" onchange="changeLanguage()">
-								<option value="en">English</option>
-								<option value="es">Español</option>
-								<option value="fr">Français</option>
-								<option value="de">Deutsch</option>
-							</select>
-						</div>
+						
 					</div>
 				</div>
 			</nav>

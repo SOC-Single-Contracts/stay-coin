@@ -730,13 +730,16 @@ a.link-demo--visited {
 }
 
 /* Media Queries for responsiveness */
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .header__language-selector {
       margin-top: 10px; /* Space it out from other elements */
       width: 100%; /* Ensure it expands fully */
   }
 
   .header__language-selector select {
+    position: absolute;
+    top: 359px;
+    left: 0;
       padding: 0.4rem 0.8rem;
       font-size: 0.9rem  
     }
@@ -957,6 +960,8 @@ a.link-demo--visited {
   }
 
   .navbar__social {
+    position: absolute;
+    bottom: 56px;
     margin-top: auto;
     text-align: center;
     width: 100%;
