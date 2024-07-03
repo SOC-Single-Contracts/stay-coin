@@ -2,12 +2,12 @@
     "title": "StayCoin",
     "getstart": "Loslegen",
     "navHome": "Startseite",
-    "navAbout": "About",
-    "navRoadmap": "Roadmap",
-    "navcontact": "Contact",
+    "navAbout": "Über uns",
+    "navRoadmap": "Fahrplan",
+    "navcontact": "Kontakt",
     "navFAQ": "FAQ",
     "navWhitepaper": "Whitepaper",
-    "navPresale": "Presale",
+    "navPresale": "Vorverkauf",
     "heroheading": "Investiere in Spaß und Fitness mit Stay.",
     "herocontent": "Trete der Krypto-Revolution bei, die hier ist, um zu bleiben! Entdecke das Potenzial von Stay in der Welt der Kryptowährungen und Fitness.",
     "heroButton": "Entdecke Stay",
@@ -27,14 +27,13 @@
         "value": "Rabatte auf Partnerprodukte und -dienstleistungen",
         "value": "Frühzeitige Einladungen zu Stay-Events und Meetups"
     },
-    
+
     "BeginHeading": "Unsere Geschichte",
     "BeginContent": "Stay wurde aus der Vision geboren, den Spaß und die virale Natur von Memes mit den praktischen Vorteilen von Kryptowährung zu verschmelzen. In einer sich ständig entwickelnden digitalen Landschaft sticht Stay hervor, indem es eine einzigartige Mischung aus Unterhaltung und Nutzen bietet, die sowohl finanzielle Investitionen als auch einen gesunden, aktiven Lebensstil fördert.",
     "BeginButton": "Erkunde Stay",
     "StayStylish": "Stay - Der Stilvolle!",
     "NumbersHeading": "Stay in Zahlen",
-    "NumbersList": [
-        {
+    "NumbersList": [{
             "quantity": "+10k",
             "heading": "Aktive Benutzer",
             "content": "Unsere Gemeinschaft wächst stark mit über 10.000 aktiven Benutzern, die an Fitness-Herausforderungen und Kryptowährungsbelohnungen teilnehmen."
@@ -51,8 +50,7 @@
         }
     ],
     "RoadMapHeading": "Fahrplan von Stay",
-    "RoadmapCards": [
-        {
+    "RoadmapCards": [{
             "Number": "1",
             "heading": "Entwicklung und Audit von Smart Contracts",
             "content": "Erstellung von Kanälen auf Telegram, Twitter, TikTok und Reddit zur Interaktion mit der Gemeinschaft und Bereitstellung regelmäßiger Updates."
@@ -114,17 +112,16 @@
         }
     ],
     "JourneyHeading": "Die Evolution von Stay - Transformation der Welten von Kryptowährung und Fitness",
-    "JourneyContent": 
-        {
-            "p1": "Entdecke die Reise, die Stay angetreten hat, um die Bereiche Kryptowährung und Fitness zu revolutionieren. Mit jedem erreichten Meilenstein kommen wir unserer Vision einer gesünderen und wohlhabenderen Gemeinschaft näher.",
-            "p2": "Seit seiner Gründung repräsentiert Stay viel mehr als nur eine Kryptowährung; es ist eine Bewegung, die darauf abzielt, digitale Währung in tägliche Aktivitäten zu integrieren, um einen gesunden Lebensstil zu fördern.",
-            "p3": "Unser engagiertes Team hat verschiedene Funktionen entwickelt und eingeführt, die nicht nur die Benutzerbindung erhöhen, sondern auch greifbare Vorteile bieten und Stay als einen Marktführer in seinem Sektor festigen",
-            "p4": "Stay dreht sich nicht nur um Investitionen; es geht darum, eine dynamische und florierende Gemeinschaft aufzubauen. Jeder Münzhalter trägt nicht nur zum Wachstum und Erfolg des Netzwerks bei, sondern erntet auch die Früchte dieses Erfolgs.",
-            "p5": "Mit Begeisterung blicken wir nach vorne und sind bereit, unsere Reichweite durch neue und aufregende Zusammenarbeiten zu erweitern, die Fähigkeiten unserer Plattform zu verbessern und weiterhin an der Schnittstelle von Technologie und Wohlbefinden zu innovieren"
-        },
+    "JourneyContent": {
+        "p1": "Entdecke die Reise, die Stay angetreten hat, um die Bereiche Kryptowährung und Fitness zu revolutionieren. Mit jedem erreichten Meilenstein kommen wir unserer Vision einer gesünderen und wohlhabenderen Gemeinschaft näher.",
+        "p2": "Seit seiner Gründung repräsentiert Stay viel mehr als nur eine Kryptowährung; es ist eine Bewegung, die darauf abzielt, digitale Währung in tägliche Aktivitäten zu integrieren, um einen gesunden Lebensstil zu fördern.",
+        "p3": "Unser engagiertes Team hat verschiedene Funktionen entwickelt und eingeführt, die nicht nur die Benutzerbindung erhöhen, sondern auch greifbare Vorteile bieten und Stay als einen Marktführer in seinem Sektor festigen",
+        "p4": "Stay dreht sich nicht nur um Investitionen; es geht darum, eine dynamische und florierende Gemeinschaft aufzubauen. Jeder Münzhalter trägt nicht nur zum Wachstum und Erfolg des Netzwerks bei, sondern erntet auch die Früchte dieses Erfolgs.",
+        "p5": "Mit Begeisterung blicken wir nach vorne und sind bereit, unsere Reichweite durch neue und aufregende Zusammenarbeiten zu erweitern, die Fähigkeiten unserer Plattform zu verbessern und weiterhin an der Schnittstelle von Technologie und Wohlbefinden zu innovieren"
+    },
     "FAQHeading": "Häufig gestellte Fragen",
     "FAQ": [
-     
+
         {
             "question": "Auf welcher Chain läuft STAY?",
             "answer": "STAY läuft auf SOLANA ($SOL)."
@@ -185,8 +182,7 @@
     "Squares": {
         "title": "Entdecke, warum Stay die ideale Wahl ist!",
         "title2": "Wähle Stay für eine innovative neue Kryptowährung und eine dynamische Fitnessgemeinschaft!",
-        "sections": [
-            {
+        "sections": [{
                 "title": "Innovativer Ansatz",
                 "text": "Stay nutzt fortschrittliche Blockchain-Technologie, um eine sichere und effiziente Plattform für Transaktionen zu bieten, die die Kraft von Memes mit praktischen Anwendungen in der realen Welt verbindet."
             },
@@ -211,6 +207,12 @@
         }
     },
     "FooterWatermark": "© 2024 StayCoin - Alle Rechte vorbehalten.",
+
+    "Follow" : "Folgen Sie uns",
+
+    "comingsoon" : "Kommt bald...!",
+
+
     "riskWarning": {
         "text": "RISIKOWARNUNG: Der Handel mit Kryptowährungen ist hochspekulativ und birgt ein hohes Risiko, das möglicherweise nicht für alle Investoren geeignet ist. Es besteht die Möglichkeit, einen Teil oder das gesamte investierte Kapital zu verlieren. Daher wird empfohlen, nicht mit Mitteln zu spekulieren, deren Verlust Sie sich nicht leisten können. Die auf dieser Website bereitgestellten Informationen stellen keine Anlageberatung dar, und jede Anlageentscheidung sollte auf eigenes Risiko getroffen werden. Zusätzlich sind Einwohner von Afghanistan, Benin, Bhutan, China, der Krimregion, Kuba, Iran, Irak, Syrien, den Vereinigten Staaten, der Vatikanstadt und jeder Person, die sich in Gerichtsbarkeiten befindet, in denen die Verbreitung oder Nutzung dieser Informationen durch lokales Recht verboten ist, nicht berechtigt, an der genannten Vorverkauf teilzunehmen."
     }

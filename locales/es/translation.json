@@ -2,12 +2,12 @@
     "title": "StayCoin",
     "getstart": "Comenzar",
     "navHome": "Inicio",
-    "navAbout": "About",
-    "navRoadmap": "Roadmap",
-    "navcontact": "Contact",
-    "navFAQ": "FAQ",
-    "navWhitepaper": "Whitepaper",
-    "navPresale": "Presale",
+    "navAbout": "Acerca de",
+    "navRoadmap": "Hoja de ruta",
+    "navcontact": "Contacto",
+    "navFAQ": "Preguntas frecuentes",
+    "navWhitepaper": "Documento técnico",
+    "navPresale": "Preventa",
     "heroheading": "Invierte en diversión y fitness con Stay.",
     "herocontent": "Únete a la revolución criptográfica, que está aquí para quedarse! Explora el potencial de Stay en el mundo de las criptomonedas y el fitness.",
     "heroButton": "Descubre Stay",
@@ -210,6 +210,11 @@
         }
     },
     "FooterWatermark": "© 2024 StayCoin - Todos los derechos reservados.",
+
+    "Follow": "Síguenos",
+
+    "comingsoon": "¡Próximamente...!",
+
     "riskWarning": {
         "text": "ADVERTENCIA DE RIESGO: La negociación de criptomonedas es altamente especulativa y conlleva un alto nivel de riesgo, que puede no ser adecuado para todos los inversores. Existe la posibilidad de perder parte o la totalidad de su capital invertido. Por lo tanto, se recomienda no especular con fondos que no pueda permitirse perder. La información proporcionada en este sitio no constituye un consejo de inversión, y cualquier decisión de inversión debe ser tomada bajo su propio riesgo. Además, los residentes de Afganistán, Benín, Bután, China, la región de Crimea, Cuba, Irán, Irak, Siria, Estados Unidos, la Ciudad del Vaticano y cualquier persona ubicada en jurisdicciones donde la distribución o el uso de esta información esté prohibido por ley local, no están permitidos para participar en la preventa mencionada."
     }

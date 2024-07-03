@@ -2,12 +2,13 @@
     "title": "StayCoin",
     "getstart": "Commencer",
     "navHome": "Accueil",
-    "navAbout": "About",
-    "navRoadmap": "Roadmap",
+
+    "navAbout": "À propos",
+    "navRoadmap": "Feuille de route",
     "navcontact": "Contact",
     "navFAQ": "FAQ",
-    "navWhitepaper": "Whitepaper",
-    "navPresale": "Presale",
+    "navWhitepaper": "Livre blanc",
+    "navPresale": "Prévente",
     "heroheading": "Investissez dans le plaisir et la forme.",
     "herocontent": "Rejoignez la révolution crypto, elle est là pour RESTER! Explorez le potentiel de Stay dans le monde des cryptomonnaies et de la forme physique.",
     "heroButton": "Découvrez Stay",
@@ -32,8 +33,7 @@
     "BeginButton": "Explorez Stay",
     "StayStylish": "Stay - Le Stylé!",
     "NumbersHeading": "Stay en chiffres",
-    "NumbersList": [
-        {
+    "NumbersList": [{
             "quantity": "+10k",
             "heading": "Utilisateurs Actifs",
             "content": "Notre communauté se renforce avec plus de 10 000 utilisateurs actifs participant aux défis de fitness et aux récompenses en cryptomonnaies."
@@ -50,8 +50,7 @@
         }
     ],
     "RoadMapHeading": "Feuille de Route Stay",
-    "RoadmapCards": [
-        {
+    "RoadmapCards": [{
             "Number": "1",
             "heading": "Développement et audit des contrats intelligents",
             "content": "Création de canaux sur Telegram, Twitter, TikTok et Reddit pour interagir avec la communauté et fournir des mises à jour régulières."
@@ -113,17 +112,16 @@
         }
     ],
     "JourneyHeading": "L'évolution de Stay - Transformer les mondes de la cryptomonnaie et du fitness",
-    "JourneyContent": 
-        {
-            "p1": "Découvrez le voyage que Stay a entrepris pour révolutionner les domaines de la cryptomonnaie et du fitness. À chaque étape franchie, nous nous rapprochons de notre vision d'une communauté plus saine et prospère.",
-            "p2": "Depuis sa création, Stay représente bien plus qu'une simple cryptomonnaie; c'est un mouvement visant à intégrer la monnaie numérique dans les activités quotidiennes pour promouvoir un mode de vie sain.",
-            "p3": "Notre équipe dédiée a développé et lancé diverses fonctionnalités qui non seulement augmentent l'engagement des utilisateurs mais offrent également des avantages tangibles, consolidant ainsi Stay comme un leader dans son secteur",
-            "p4": "Stay ne concerne pas seulement l'investissement; il s'agit de construire une communauté dynamique et prospère. Chaque détenteur de coin contribue non seulement à la croissance et au succès du réseau mais récolte également les récompenses de ce succès.",
-            "p5": "Envisageant l'avenir avec enthousiasme, nous sommes prêts à étendre notre portée grâce à de nouvelles collaborations passionnantes, à améliorer les capacités de notre plateforme et à continuer d'innover à l'intersection de la technologie et du bien-être."
-        },
+    "JourneyContent": {
+        "p1": "Découvrez le voyage que Stay a entrepris pour révolutionner les domaines de la cryptomonnaie et du fitness. À chaque étape franchie, nous nous rapprochons de notre vision d'une communauté plus saine et prospère.",
+        "p2": "Depuis sa création, Stay représente bien plus qu'une simple cryptomonnaie; c'est un mouvement visant à intégrer la monnaie numérique dans les activités quotidiennes pour promouvoir un mode de vie sain.",
+        "p3": "Notre équipe dédiée a développé et lancé diverses fonctionnalités qui non seulement augmentent l'engagement des utilisateurs mais offrent également des avantages tangibles, consolidant ainsi Stay comme un leader dans son secteur",
+        "p4": "Stay ne concerne pas seulement l'investissement; il s'agit de construire une communauté dynamique et prospère. Chaque détenteur de coin contribue non seulement à la croissance et au succès du réseau mais récolte également les récompenses de ce succès.",
+        "p5": "Envisageant l'avenir avec enthousiasme, nous sommes prêts à étendre notre portée grâce à de nouvelles collaborations passionnantes, à améliorer les capacités de notre plateforme et à continuer d'innover à l'intersection de la technologie et du bien-être."
+    },
     "FAQHeading": "questions fréquemment posées",
     "FAQ": [
-      
+
         {
             "question": "Sur quelle chaîne est STAY?",
             "answer": "STAY fonctionne sur SOLANA ($SOL)."
@@ -184,8 +182,7 @@
     "Squares": {
         "title": "Découvrez pourquoi Stay est le choix idéal!",
         "title2": "Choisissez Stay pour une nouvelle cryptomonnaie innovante et une communauté de fitness dynamique!",
-        "sections": [
-            {
+        "sections": [{
                 "title": "Approche Innovante",
                 "text": "Stay exploite la technologie blockchain avancée pour fournir une plateforme sécurisée et efficace pour les transactions, fusionnant la puissance des mèmes avec des applications pratiques dans le monde réel."
             },
@@ -210,6 +207,11 @@
         }
     },
     "FooterWatermark": "© 2024 StayCoin - Tous droits réservés.",
+
+    "Follow": "Suivez-nous",
+
+    "comingsoon": "Bientôt disponible...!",
+
     "riskWarning": {
         "text": "AVERTISSEMENT DE RISQUE : Le trading de cryptomonnaies est hautement spéculatif et comporte un niveau de risque élevé, ce qui peut ne pas convenir à tous les investisseurs. Il y a une possibilité de perdre une partie ou la totalité de votre capital investi. Il est donc recommandé de ne pas spéculer avec des fonds que vous ne pouvez pas vous permettre de perdre. Les informations fournies sur ce site ne constituent pas un conseil en investissement, et toute décision d'investissement doit être prise à vos propres risques. De plus, les résidents d'Afghanistan, du Bénin, du Bhoutan, de Chine, de la région de Crimée, de Cuba, d'Iran, d'Irak, de Syrie, des États-Unis, de la Cité du Vatican, et toute personne située dans des juridictions où la distribution ou l'utilisation de ces informations est interdite par la loi locale, ne sont pas autorisés à participer à la prévente mentionnée."
     }
