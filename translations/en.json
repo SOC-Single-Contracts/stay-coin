@@ -1,0 +1,222 @@
+{
+    "title": "StayCoin",
+    "getstart": "Get started",
+    "navHome": "Home",
+    "navAbout": "About",
+    "navRoadmap": "Roadmap",
+    "navcontact": "Contact",
+    "navFAQ": "FAQ",
+    "navWhitepaper": "Whitepaper",
+    "navPresale": "Presale",
+    "heroheading": "Stay investing in fun and fitness.",
+    "herocontent": "Join the crypto revolution, that's here to STAY! Explore the potential of STAY in the world of cryptocurrencies and fitness.",
+    "heroButton": "Discover Stay",
+    "heroheading2": "Empowering Health and Prosperity",
+    "herocontent2": "With Stay, every step in fitness is an investment in your health and financial future. Earn rewards while staying fit!",
+    "heroButton2": "Join the movement",
+    "OneTwo-One": "Combining advanced blockchain technology with real-world utility, Stay is designed to promote not just investment but also a healthy lifestyle through its fitness rewards program.",
+    "OneTwo-Two": "Join a growing community",
+     "ONetwo-span":"With Stay, and invest", 
+     "Onetwo-span2":"in your future well-being",
+    "PerksHeading": "Stay Membership Benefits",
+    "PerksContent1": "Unlock exclusive benefits and maximize your potential in the Stay ecosystem.",
+    "PerksContentSpan": "Here’s what you gain with your active participation and investment:.",
+   "PerksContentlist": {
+    "value1": "Exclusive access to fitness challenges and rewards",
+    "value2": "Priority access to new features and updates",
+    "value3": "Discounts on partner products and services",
+    "value4": "Early invitations to Stay events and meetups"
+},
+    "BeginHeading": "Our Story",
+    "BeginContent": "Stay was born from a vision to merge the fun and viral nature of memes with the practical benefits of cryptocurrency. In an ever-evolving digital landscape, Stay stands out by offering a unique blend of entertainment and utility, encouraging both financial investment and a healthy, active lifestyle.",
+    "BeginButton": "Explore Stay",
+    "StayStylish": "Stay - The Stylish!",
+    "NumbersHeading": "Stay by the Numbers",
+    "NumbersList": [
+        {
+            "quantity": "+10k",
+            "heading": "Active Users",
+            "content": "Our community is growing strong with over 10,000 active users participating in fitness challenges and cryptocurrency rewards."
+        },
+        {
+            "quantity": "X1000",
+            "heading": "(Estimate)Return Objective",
+            "content": "Stay aims to achieve a return of approximately x1000, an ambitious goal supported by our innovative growth strategies and community commitment."
+        },
+        {
+            "quantity": "95%",
+            "heading": "Customer Satisfaction",
+            "content": "With a 95% satisfaction rate, our users testify to the benefits and rewards of being part of the Stay community."
+        }
+    ],
+    "RoadMapHeading": "Stay Roadmap",
+    "RoadmapCards": [
+        {
+            "Number": "1",
+            "heading": "Development and audit of smart contracts",
+            "content": "Creation of channels on Telegram, Twitter, TikTok, and Reddit to interact with the community and provide regular updates."
+        },
+        {
+            "Number": "2",
+            "heading": "Organization and execution of token presale to raise initial funds",
+            "content": "Airdrops (Organic Marketing): Free distribution of STAY tokens to the community and potential investors to increase project visibility; Marketing and Promotion: Implementation of marketing strategies to increase awareness and adoption of STAY."
+        },
+        {
+            "Number": "3",
+            "heading": "Launch of CEX Launchpad:",
+            "content": "Collaboration with Centralized Exchanges (CEX) to conduct an Initial Exchange Offering (IEO) and list STAY on their platforms."
+        },
+        {
+            "Number": "4",
+            "heading": "Launch of Stay Rewards Platform",
+            "content": "Collaboration with Centralized Exchanges (CEX) to conduct an Initial Exchange Offering (IEO) and list STAY on their platforms"
+        },
+        {
+            "Number": "5",
+            "heading": "Decentralized Exchange",
+            "content": "Listing on the most important DEXs in the crypto market."
+        },
+        {
+            "Number": "6",
+            "heading": "Cryptocurrency Exchange",
+            "content": "Listing on the most important CEXs in the crypto market."
+        },
+        {
+            "Number": "7",
+            "heading": "Creation of Animated Games",
+            "content": "Creation of animated games for the STAY community to maintain belief in the meme coin, including a PLAY-to-earn game to earn tokens"
+        },
+        {
+            "Number": "8",
+            "heading": "Community App Development",
+            "content": "With the established 2024 holders community, create an app for those holders to have exercise routines and a diet plan according to their goals, whether for fat loss, muscle gain, or a healthy lifestyle. Follow-up by a professional and internationally recognized fitness expert."
+        },
+        {
+            "Number": "9",
+            "heading": "Fitness App Integration",
+            "content": "With the creation of routines and diets, the Stay and Stay Fit team will sponsor two or three elite athletes to receive financial support from the Stay team, allocating part of the marketing budget to showcase what the Stay token is capable of"
+        },
+        {
+            "Number": "10",
+            "heading": "Launching of Marketing Campaign",
+            "content": "Launch a marketing campaign with the creation of T-shirts, keychains, water bottles, and swimsuits, all featuring the STAY logo. Conduct giveaways for the holders community and gift some T-shirts with the STAY logo."
+        },
+        {
+            "Number": "11",
+            "heading": "Sponsored Sports Events",
+            "content": "Sponsor the Stay logo at a major sports event to engage the STAY team in supporting that sports event.."
+        },
+        {
+            "Number": "12",
+            "heading": "Giveaways",
+            "content": "Giveaway of 2 tickets to attend the 2026 Champions League final match."
+        }
+    ],
+    "JourneyHeading" : "The Evolution of Stay - Transforming the Worlds of Cryptocurrency and Fitness",
+    "JourneyContent": [
+        {
+            "p1" : "Discover the journey Stay has embarked on to revolutionize the realms of cryptocurrency and fitness. With each milestone achieved, we move closer to our vision of a healthier and more prosperous community.",
+            "p2":"Since its inception, Stay has represented much more than a mere cryptocurrency; it is a movement aimed at integrating digital currency into daily activities to promote a healthy lifestyle.", 
+            "p3":"Our dedicated team has developed and launched various features that not only increase user engagement but also offer tangible benefits, solidifying Stay as a leader in its sector",
+            "p4":"Stay is not just about investment; it's about building a dynamic and thriving community. Each coin holder not only contributes to the growth and success of the network but also reaps rewards of this success.",
+            "p5":"Looking forward with enthusiasm, we are poised to expand our reach through new and exciting collaborations, enhance capabilities of our platform, and continue innovating at the intersection of technology and well-being"
+        }
+    ],
+
+    "FAQ": [
+        {
+            "Heading": "frequently asked questions"
+        },
+        {
+            "question": "What chain is STAY on?",
+            "answer": "STAY runs on SOLANA ($SOL)."
+        },
+        {
+            "question": "When is the Presale?",
+            "answer": "Pending to set a date for the presale at 12AM UTC."
+        },
+        {
+            "question": "The official address to deposit Solana and purchase STAY will be displayed only on?",
+            "answer": "at 12AM UTC on the website https://staycripto.com/. Beware of scammers! Only use the address shown on that website and on our official Telegram, Instagram, and X accounts."
+        },
+        {
+            "question": "How long does the Pre-Sale last?",
+            "answer": "ending to set a date 24 12AM UTC."
+        },
+        {
+            "question": "When will the STAY Token be listed?",
+            "answer": "The STAY token will be listed and tradable shortly after the pre-sale ends and all tokens have been distributed to pre-sale buyers."
+        },
+        {
+            "question": "On what exchanges will STAY be listed right after Pre-Sale?",
+            "answer": "The project team intends to list STAY on Raydium and Orca and further DEXes."
+        },
+        {
+            "question": "Will STAY be listed on Tier1 Exchanges?",
+            "answer": "Yes, we plan to list Stay on major exchanges. The STAY project team has successfully listed prior projects on Binance, ByBit, OKX, Kucoin, BitGet and Bitfinex."
+        },
+        {
+            "question": "When is the distribution of my purchased STAY taking place?",
+            "answer": "The distribution will take place 30-60 minutes after official token listings on DEX."
+        },
+        {
+            "question": "What is the Max Supply of STAY?",
+            "answer": "There will be 110.920.012.980.000.00 STAY in Circulation."
+        },
+        {
+            "question": "Does the project have reputable Market Makers and Liquidity Management?",
+            "answer": "Drawing from over 7 years of experience from the core founding team in creating and managing tokens with volumes in the tens of millions, STAY has had a very professional Market-Making setup from Day 1 and allocates a significant portion of project funds to liquidity."
+        },
+        {
+            "question": "Are promoters/influencers and the team subject to a vesting schedule?",
+            "answer": "The early contributors' group is under vesting, and the project is led by successful entrepreneurs who have previously built a multi-billion-dollar company. Therefore, there are no incentives for speculative buying and selling operations. The primary goal is to establish a strong and large community and create one of the first 'major meme tokens' centered around the narrative of wellness, health, and fitness."
+        },
+        {
+            "question": "Will there be airdrops?",
+            "answer": "Yes. We will share airdrop activities on our social channels. Make sure to follow/subscribe and participate in our exclusive games to earn additional rewards. 1.5% of the circulating supply is allocated to airdrops."
+        },
+        {
+            "question": "Will the Smart Contract have an audit?",
+            "answer": "Yes on Solana (SOL) network be audited by a reputable provider to ensure its security and reliability!"
+        },
+        {
+            "question": "Can American or Chinese investors participate?",
+            "answer": "No, the pre-sale excludes any citizen or resident of the United States, as well as Chinese investors. Additionally, investors from any sanctioned country are not permitted to invest. All transactions are subject to automatic anti-money laundering (AML) checks to ensure a healthy community of token holders from the outset."
+        }
+    ],
+    "Squares": {
+        "title": "Discover why Stay is the ideal choice!",
+        "title2": "Choose Stay for an innovative new cryptocurrency and a dynamic fitness community!",
+        "sections": [
+            {
+                "title": "Innovative Approach",
+                "text": "Stay leverages advanced blockchain technology to provide a secure and efficient platform for transactions, merging the power of memes with practical real-world applications."
+            },
+            {
+                "title": "Community-Driven",
+                "text": "Our community is the core of everything we do. Stay Coin empowers users through community governance and collective decision-making, ensuring that everyone has a voice and active participation."
+            },
+            {
+                "title": "Fitness Rewards with Experts",
+                "text": "Stay active and earn rewards with guidance from world-class fitness professionals! Stay Coin integrates with fitness applications to promote a healthy lifestyle, rewarding your achievements and physical activities with the endorsement of fitness leaders."
+            },
+            {
+                "title": "Growth Potential",
+                "text": "With a strategic vision and a dedicated team, Stay Coin is poised for significant growth, offering investors the opportunity to achieve substantial returns on their investments."
+            }
+        ]
+    },
+    "action": {
+        "text": "Join today the vibrant Stay revolution and secure your spot in our active fitness community! With Stay, you're not just investing in the future of cryptocurrencies, but also benefiting from rewards while maintaining an active lifestyle. Buy Stay now and join us in holding tokens, making a significant impact together in the world of cryptocurrencies!",
+        "button": {
+            "text": "Get Started with Stay"
+        }
+    },
+    "FooterWatermark": "© 2024 StayCoin - All rights reserved.",
+
+    
+        "riskWarning": {
+            "text": "RISK WARNING: Cryptocurrency trading is highly speculative and carries a high level of risk, which may not be suitable for all investors. There is a possibility of losing part or all of your invested capital. Therefore, it is recommended not to speculate with funds you cannot afford to lose. The information provided on this site does not constitute investment advice, and any investment decision should be made at your own risk. In addition, residents of Afghanistan, Benin, Bhutan, China, Crimea region, Cuba, Iran, Iraq, Syria, United States, Vatican City, and any person located in jurisdictions where the distribution or use of this information is prohibited by local law, are not permitted to participate in the mentioned presale."
+        }
+}
+    

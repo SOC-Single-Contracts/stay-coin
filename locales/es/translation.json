@@ -1,0 +1,216 @@
+{
+    "title": "StayCoin",
+    "getstart": "Comenzar",
+    "navHome": "Inicio",
+    "navAbout": "About",
+    "navRoadmap": "Roadmap",
+    "navcontact": "Contact",
+    "navFAQ": "FAQ",
+    "navWhitepaper": "Whitepaper",
+    "navPresale": "Presale",
+    "heroheading": "Invierte en diversión y fitness con Stay.",
+    "herocontent": "Únete a la revolución criptográfica, que está aquí para quedarse! Explora el potencial de Stay en el mundo de las criptomonedas y el fitness.",
+    "heroButton": "Descubre Stay",
+    "heroheading2": "Empoderando la Salud y la Prosperidad",
+    "herocontent2": "Con Stay, cada paso en el fitness es una inversión en tu salud y futuro financiero. ¡Gana recompensas mientras te mantienes en forma!",
+    "heroButton2": "Únete al movimiento",
+    "OneTwo-One": "Combinando tecnología blockchain avanzada con utilidad práctica, Stay está diseñado para promover no solo la inversión, sino también un estilo de vida saludable a través de su programa de recompensas de fitness.",
+    "OneTwo-Two": "Únete a una comunidad en crecimiento",
+    "ONetwo-span": "Con Stay, e invierte",
+    "Onetwo-span2": "en tu bienestar futuro",
+    "PerksHeading": "Beneficios de la Membresía Stay",
+    "PerksContent1": "Desbloquea beneficios exclusivos y maximiza tu potencial en el ecosistema de Stay.",
+    "PerksContentSpan": "Aquí está lo que ganas con tu participación activa e inversión:",
+    "PerksContentlist": {
+        "value1": "Acceso exclusivo a desafíos de fitness y recompensas",
+        "value2": "Acceso prioritario a nuevas características y actualizaciones",
+        "value3": "Descuentos en productos y servicios de socios",
+        "value4": "Invitaciones anticipadas a eventos y reuniones de Stay"
+    },
+    "BeginHeading": "Nuestra Historia",
+    "BeginContent": "Stay nació de la visión de fusionar la naturaleza divertida y viral de los memes con los beneficios prácticos de la criptomoneda. En un paisaje digital en constante evolución, Stay se destaca por ofrecer una mezcla única de entretenimiento y utilidad, fomentando tanto la inversión financiera como un estilo de vida saludable y activo.",
+    "BeginButton": "Explora Stay",
+    "StayStylish": "Stay - ¡El Estiloso!",
+    "NumbersHeading": "Stay en Números",
+    "NumbersList": [
+        {
+            "quantity": "+10k",
+            "heading": "Usuarios Activos",
+            "content": "Nuestra comunidad está creciendo fuerte con más de 10,000 usuarios activos participando en desafíos de fitness y recompensas criptográficas."
+        },
+        {
+            "quantity": "X1000",
+            "heading": "Objetivo de Retorno (Estimado)",
+            "content": "Stay apunta a lograr un retorno de aproximadamente x1000, un objetivo ambicioso apoyado por nuestras estrategias innovadoras de crecimiento y el compromiso de la comunidad."
+        },
+        {
+            "quantity": "95%",
+            "heading": "Satisfacción del Cliente",
+            "content": "Con una tasa de satisfacción del 95%, nuestros usuarios testifican los beneficios y recompensas de ser parte de la comunidad de Stay."
+        }
+    ],
+    "RoadMapHeading": "Hoja de Ruta de Stay",
+    "RoadmapCards": [
+        {
+            "Number": "1",
+            "heading": "Desarrollo y auditoría de contratos inteligentes",
+            "content": "Creación de canales en Telegram, Twitter, TikTok y Reddit para interactuar con la comunidad y proporcionar actualizaciones regulares."
+        },
+        {
+            "Number": "2",
+            "heading": "Organización y ejecución de la preventa de tokens para recaudar fondos iniciales",
+            "content": "Airdrops (Marketing Orgánico): Distribución gratuita de tokens STAY a la comunidad e inversionistas potenciales para aumentar la visibilidad del proyecto; Marketing y Promoción: Implementación de estrategias de marketing para aumentar la concienciación y adopción de STAY."
+        },
+        {
+            "Number": "3",
+            "heading": "Lanzamiento de CEX Launchpad:",
+            "content": "Colaboración con Exchanges Centralizados (CEX) para realizar una Oferta Inicial de Intercambio (IEO) y listar STAY en sus plataformas."
+        },
+        {
+            "Number": "4",
+            "heading": "Lanzamiento de la Plataforma de Recompensas Stay",
+            "content": "Colaboración con Exchanges Centralizados (CEX) para realizar una Oferta Inicial de Intercambio (IEO) y listar STAY en sus plataformas"
+        },
+        {
+            "Number": "5",
+            "heading": "Intercambio Descentralizado",
+            "content": "Listado en los DEX más importantes del mercado cripto."
+        },
+        {
+            "Number": "6",
+            "heading": "Intercambio de Criptomonedas",
+            "content": "Listado en los CEX más importantes del mercado cripto."
+        },
+        {
+            "Number": "7",
+            "heading": "Creación de Juegos Animados",
+            "content": "Creación de juegos animados para la comunidad de STAY para mantener la creencia en la moneda meme, incluyendo un juego de JUGAR para ganar tokens"
+        },
+        {
+            "Number": "8",
+            "heading": "Desarrollo de la Aplicación Comunitaria",
+            "content": "Con la comunidad de holders establecida en 2024, crear una aplicación para que esos holders tengan rutinas de ejercicio y un plan de dieta según sus objetivos, ya sea para pérdida de grasa, ganancia muscular o un estilo de vida saludable. Seguimiento por un experto en fitness profesional e internacionalmente reconocido."
+        },
+        {
+            "Number": "9",
+            "heading": "Integración de la Aplicación de Fitness",
+            "content": "Con la creación de rutinas y dietas, el equipo de Stay y Stay Fit patrocinará a dos o tres atletas de élite para recibir apoyo financiero del equipo de Stay, asignando parte del presupuesto de marketing para mostrar lo que el token Stay es capaz de hacer"
+        },
+        {
+            "Number": "10",
+            "heading": "Lanzamiento de Campaña de Marketing",
+            "content": "Lanzar una campaña de marketing con la creación de camisetas, llaveros, botellas de agua y trajes de baño, todos con el logo de STAY. Realizar sorteos para la comunidad de holders y regalar algunas camisetas con el logo de STAY."
+        },
+        {
+            "Number": "11",
+            "heading": "Eventos Deportivos Patrocinados",
+            "content": "Patrocinar el logo de Stay en un importante evento deportivo para involucrar al equipo de STAY en el apoyo a ese evento deportivo."
+        },
+        {
+            "Number": "12",
+            "heading": "Sorteos",
+            "content": "Sorteo de 2 entradas para asistir al partido final de la Liga de Campeones 2026."
+        }
+    ],
+    "JourneyHeading": "La Evolución de Stay - Transformando los Mundos de Criptomoneda y Fitness",
+    "JourneyContent": 
+        {
+            "p1": "Descubre el viaje que Stay ha emprendido para revolucionar los ámbitos de la criptomoneda y el fitness. Con cada hito alcanzado, nos acercamos más a nuestra visión de una comunidad más saludable y próspera.",
+            "p2": "Desde su inicio, Stay ha representado mucho más que una simple criptomoneda; es un movimiento dirigido a integrar la moneda digital en las actividades diarias para promover un estilo de vida saludable.",
+            "p3": "Nuestro equipo dedicado ha desarrollado y lanzado diversas características que no solo aumentan el compromiso del usuario sino que también ofrecen beneficios tangibles, consolidando a Stay como un líder en su sector",
+            "p4": "Stay no es solo sobre inversión; es sobre construir una comunidad dinámica y próspera. Cada titular de monedas no solo contribuye al crecimiento y éxito de la red, sino que también cosecha las recompensas de este éxito.",
+            "p5": "Mirando hacia adelante con entusiasmo, estamos preparados para expandir nuestro alcance a través de nuevas y emocionantes colaboraciones, mejorar las capacidades de nuestra plataforma y continuar innovando en la intersección de la tecnología y el bienestar"
+        },
+    "FAQHeading" :"preguntas frecuentes",
+    "FAQ": [
+     
+        {
+            "question": "¿En qué cadena está STAY?",
+            "answer": "STAY opera en SOLANA ($SOL)."
+        },
+        {
+            "question": "¿Cuándo es la Preventa?",
+            "answer": "Pendiente de establecer una fecha para la preventa a las 12AM UTC."
+        },
+        {
+            "question": "¿La dirección oficial para depositar Solana y comprar STAY se mostrará solo en?",
+            "answer": "a las 12AM UTC en el sitio web https://staycripto.com/. ¡Cuidado con los estafadores! Solo use la dirección que se muestra en ese sitio web y en nuestras cuentas oficiales de Telegram, Instagram y X."
+        },
+        {
+            "question": "¿Cuánto dura la Pre-Venta?",
+            "answer": "pendiente de establecer una fecha 24 12AM UTC."
+        },
+        {
+            "question": "¿Cuándo se listarán los tokens STAY?",
+            "answer": "El token STAY se listará y será comerciable poco después de que finalice la preventa y todos los tokens hayan sido distribuidos a los compradores de la preventa."
+        },
+        {
+            "question": "¿En qué exchanges se listará STAY justo después de la Pre-Venta?",
+            "answer": "El equipo del proyecto tiene la intención de listar STAY en Raydium y Orca y otros DEXes adicionales."
+        },
+        {
+            "question": "¿STAY se listará en Exchanges de Nivel 1?",
+            "answer": "Sí, planeamos listar Stay en los principales exchanges. El equipo del proyecto STAY ha listado exitosamente proyectos anteriores en Binance, ByBit, OKX, Kucoin, BitGet y Bitfinex."
+        },
+        {
+            "question": "¿Cuándo se realizará la distribución de mi compra de STAY?",
+            "answer": "La distribución se llevará a cabo 30-60 minutos después de las listas oficiales de tokens en DEX."
+        },
+        {
+            "question": "¿Cuál es el Suministro Máximo de STAY?",
+            "answer": "Habrá 110.920.012.980.000.00 STAY en Circulación."
+        },
+        {
+            "question": "¿El proyecto cuenta con Creadores de Mercado y Gestión de Liquidez de renombre?",
+            "answer": "Basándonos en más de 7 años de experiencia del equipo fundador en la creación y gestión de tokens con volúmenes en los decenas de millones, STAY ha tenido una configuración de Market-Making muy profesional desde el primer día y asigna una parte significativa de los fondos del proyecto a la liquidez."
+        },
+        {
+            "question": "¿Los promotores/influencers y el equipo están sujetos a un calendario de vesting?",
+            "answer": "El grupo de contribuyentes tempranos está bajo vesting, y el proyecto está liderado por emprendedores exitosos que han construido anteriormente una empresa multimillonaria. Por lo tanto, no hay incentivos para las operaciones especulativas de compra y venta. El objetivo principal es establecer una comunidad fuerte y grande y crear uno de los primeros 'tokens meme importantes' centrados en la narrativa del bienestar, la salud y el fitness."
+        },
+        {
+            "question": "¿Habrá airdrops?",
+            "answer": "Sí. Compartiremos actividades de airdrop en nuestros canales sociales. Asegúrate de seguir/suscribirte y participar en nuestros juegos exclusivos para ganar recompensas adicionales. El 1.5% del suministro circulante está asignado a airdrops."
+        },
+        {
+            "question": "¿El Contrato Inteligente tendrá una auditoría?",
+            "answer": "Sí, la red SOLANA (SOL) será auditada por un proveedor de renombre para asegurar su seguridad y fiabilidad."
+        },
+        {
+            "question": "¿Pueden participar inversores estadounidenses o chinos?",
+            "answer": "No, la preventa excluye a cualquier ciudadano o residente de Estados Unidos, así como a los inversores chinos. Además, los inversores de cualquier país sancionado no están permitidos para invertir. Todas las transacciones están sujetas a controles automáticos de prevención de lavado de dinero (AML) para asegurar una comunidad saludable de titulares de tokens desde el principio."
+        }
+    ],
+    "Squares": {
+        "title": "Descubre por qué Stay es la elección ideal!",
+        "title2": "Elige Stay para una nueva criptomoneda innovadora y una comunidad de fitness dinámica!",
+        "sections": [
+            {
+                "title": "Enfoque Innovador",
+                "text": "Stay aprovecha la tecnología blockchain avanzada para proporcionar una plataforma segura y eficiente para transacciones, fusionando el poder de los memes con aplicaciones prácticas del mundo real."
+            },
+            {
+                "title": "Impulsado por la Comunidad",
+                "text": "Nuestra comunidad es el núcleo de todo lo que hacemos. Stay Coin empodera a los usuarios a través de la gobernanza comunitaria y la toma de decisiones colectiva, asegurando que todos tengan voz y participación activa."
+            },
+            {
+                "title": "Recompensas de Fitness con Expertos",
+                "text": "¡Mantente activo y gana recompensas con la guía de profesionales del fitness de clase mundial! Stay Coin se integra con aplicaciones de fitness para promover un estilo de vida saludable, recompensando tus logros y actividades físicas con el aval de líderes en fitness."
+            },
+            {
+                "title": "Potencial de Crecimiento",
+                "text": "Con una visión estratégica y un equipo dedicado, Stay Coin está preparado para un crecimiento significativo, ofreciendo a los inversores la oportunidad de lograr retornos sustanciales en sus inversiones."
+            }
+        ]
+    },
+    "action": {
+        "text": "¡Únete hoy a la vibrante revolución de Stay y asegura tu lugar en nuestra activa comunidad de fitness! Con Stay, no solo estás invirtiendo en el futuro de las criptomonedas, sino que también te beneficias de recompensas mientras mantienes un estilo de vida activo. Compra Stay ahora y únete a nosotros en mantener tokens, haciendo un impacto significativo juntos en el mundo de las criptomonedas!",
+        "button": {
+            "text": "Comienza con Stay"
+        }
+    },
+    "FooterWatermark": "© 2024 StayCoin - Todos los derechos reservados.",
+    "riskWarning": {
+        "text": "ADVERTENCIA DE RIESGO: La negociación de criptomonedas es altamente especulativa y conlleva un alto nivel de riesgo, que puede no ser adecuado para todos los inversores. Existe la posibilidad de perder parte o la totalidad de su capital invertido. Por lo tanto, se recomienda no especular con fondos que no pueda permitirse perder. La información proporcionada en este sitio no constituye un consejo de inversión, y cualquier decisión de inversión debe ser tomada bajo su propio riesgo. Además, los residentes de Afganistán, Benín, Bután, China, la región de Crimea, Cuba, Irán, Irak, Siria, Estados Unidos, la Ciudad del Vaticano y cualquier persona ubicada en jurisdicciones donde la distribución o el uso de esta información esté prohibido por ley local, no están permitidos para participar en la preventa mencionada."
+    }
+}
